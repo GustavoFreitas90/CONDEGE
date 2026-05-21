@@ -224,10 +224,6 @@
         "tem": true
       },
       {
-        "nome": "Brasiléia; Cruzeiro do Sul; Epitaciolândia; Feijó; Mâncio Lima; Rio Branco; Sena Madureira; Tarauacá; Xapuri",
-        "tem": true
-      },
-      {
         "nome": "Cruzeiro do Sul",
         "tem": true
       },
@@ -263,10 +259,6 @@
     "ALAGOAS": [
       {
         "nome": "Arapiraca",
-        "tem": true
-      },
-      {
-        "nome": "Arapiraca; Delmiro Gouveia; Maceió; Marechal Deodoro; Murici; Palmeira dos Índios; Penedo; Rio Largo; Santana do Ipanema; São Miguel dos Campos; União dos Palmares; Viçosa",
         "tem": true
       },
       {
@@ -320,10 +312,6 @@
         "tem": true
       },
       {
-        "nome": "Amapá; Laranjal do Jari; Macapá; Mazagão; Oiapoque; Porto Grande; Santana",
-        "tem": true
-      },
-      {
         "nome": "Laranjal do Jari",
         "tem": true
       },
@@ -351,10 +339,6 @@
     "AMAZONAS": [
       {
         "nome": "Autazes",
-        "tem": true
-      },
-      {
-        "nome": "Autazes; Careiro; Coari; Envira; Humaitá; Itacoatiara; Lábrea; Manacapuru; Manaus; Maués; Parintins; Presidente Figueiredo; São Gabriel da Cachoeira; Tabatinga; Tefé",
         "tem": true
       },
       {
@@ -417,10 +401,6 @@
     "BAHIA": [
       {
         "nome": "Alagoinhas",
-        "tem": true
-      },
-      {
-        "nome": "Alagoinhas; Barreiras; Brumado; Cachoeira; Camaçari; Conceição do Coité; Cruz das Almas; Eunápolis; Feira de Santana; Guanambi; Ibotirama; Ilhéus; Ipirá; Irecê; Itaberaba; Itabuna; Jacobina; Jequié; Juazeiro; Lauro de Freitas; Livramento de Nossa Senhora; Paulo Afonso; Porto Seguro; Ribeira do Pombal; Salvador; Santo Amaro; Santo Antônio de Jesus; Seabra; Senhor do Bonfim; Serrinha; Simões Filho; Teixeira de Freitas; Valença; Vitória da Conquista",
         "tem": true
       },
       {
@@ -562,10 +542,6 @@
         "tem": true
       },
       {
-        "nome": "Aquiraz; Aracati; Baturité; Brejo Santo; Camocim; Canindé; Caucaia; Crateús; Crato; Fortaleza; Guaraciaba do Norte; Horizonte; Icó; Iguatu; Itapipoca; Juazeiro do Norte; Limoeiro do Norte; Maracanaú; Maranguape; Morada Nova; Pacatuba; Quixadá; Russas; Sobral; Tianguá",
-        "tem": true
-      },
-      {
         "nome": "Aracati",
         "tem": true
       },
@@ -668,10 +644,6 @@
         "tem": true
       },
       {
-        "nome": "Brasília (Plano Piloto); Brazlândia; Ceilândia; Gama; Núcleo Bandeirante; Paranoá; Planaltina; Recanto das Emas; Riacho Fundo; Samambaia; Sobradinho; São Sebastião; Taguatinga",
-        "tem": true
-      },
-      {
         "nome": "Brazlândia",
         "tem": true
       },
@@ -723,10 +695,6 @@
     "ESPÍRITO SANTO": [
       {
         "nome": "Alegre",
-        "tem": true
-      },
-      {
-        "nome": "Alegre; Anchieta; Aracruz; Barra de São Francisco; Cachoeiro de Itapemirim; Cariacica; Colatina; Ecoporanga; Guarapari; Iconha; Itapemirim; Linhares; Montanha; Nova Venécia; Piúma; Serra; São Mateus; Viana; Vila Velha; Vitória",
         "tem": true
       },
       {
@@ -809,10 +777,6 @@
     "GOIÁS": [
       {
         "nome": "Anápolis",
-        "tem": true
-      },
-      {
-        "nome": "Anápolis; Aparecida de Goiânia; Caldas Novas; Catalão; Ceres; Formosa; Goianira; Goianésia; Goiânia; Inhumas; Itumbiara; Jataí; Luziânia; Mineiros; Morrinhos; Niquelândia; Novo Gama; Pires do Rio; Planaltina; Porangatu; Rio Verde; Senador Canedo; Trindade; Uruaçu; Valparaíso de Goiás; Águas Lindas de Goiás",
         "tem": true
       },
       {
@@ -922,10 +886,6 @@
         "tem": true
       },
       {
-        "nome": "Açailândia; Bacabal; Balsas; Barra do Corda; Bom Jesus das Selvas; Carolina; Caxias; Chapadinha; Codó; Coroatá; Grajaú; Imperatriz; Paço do Lumiar; Pedreiras; Pinheiro; Presidente Dutra; Santa Inês; São João dos Patos; São Luís; Timon; Viana",
-        "tem": true
-      },
-      {
         "nome": "Bacabal",
         "tem": true
       },
@@ -1012,10 +972,6 @@
         "tem": true
       },
       {
-        "nome": "Alta Floresta; Barra do Garças; Campo Novo do Parecis; Colíder; Cuiabá; Cáceres; Juara; Lucas do Rio Verde; Nova Mutum; Peixoto de Azevedo; Primavera do Leste; Rondonópolis; Sinop; Sorriso; Tangará da Serra; Várzea Grande",
-        "tem": true
-      },
-      {
         "nome": "Barra do Garças",
         "tem": true
       },
@@ -1082,10 +1038,6 @@
         "tem": true
       },
       {
-        "nome": "Aquidauana; Camapuã; Campo Grande; Cassilândia; Corumbá; Coxim; Dourados; Maracaju; Naviraí; Nova Andradina; Paranaíba; Ponta Porã; Rio Verde de Mato Grosso; Sidrolândia; Três Lagoas",
-        "tem": true
-      },
-      {
         "nome": "Camapuã",
         "tem": true
       },
@@ -1145,10 +1097,6 @@
     "MINAS GERAIS": [
       {
         "nome": "Alfenas",
-        "tem": true
-      },
-      {
-        "nome": "Alfenas; Almenara; Araxá; Barbacena; Belo Horizonte; Betim; Caratinga; Cataguases; Conselheiro Lafaiete; Contagem; Coronel Fabriciano; Curvelo; Diamantina; Divinópolis; Formiga; Governador Valadares; Ibirité; Ipatinga; Itabira; Itajubá; Ituiutaba; João Monlevade; Juatuba; Juiz de Fora; Lavras; Leopoldina; Manhuaçu; Mariana; Montes Claros; Muriaé; Ouro Preto; Paracatu; Passos; Patos de Minas; Ponte Nova; Pouso Alegre; Poços de Caldas; Ribeirão das Neves; Sabará; Santa Luzia; Sete Lagoas; São João del-Rei; Teófilo Otoni; Três Corações; Uberaba; Uberlândia; Ubá; Varginha; Vespasiano; Viçosa",
         "tem": true
       },
       {
@@ -1354,10 +1302,6 @@
         "tem": true
       },
       {
-        "nome": "Abaetetuba; Altamira; Ananindeua; Barcarena; Belém; Bragança; Cametá; Capanema; Castanhal; Conceição do Araguaia; Itaituba; Marabá; Marituba; Moju; Oriximiná; Paragominas; Parauapebas; Redenção; Santarém; Soure; São Felix do Xingu; Tucuruí; Vigia",
-        "tem": true
-      },
-      {
         "nome": "Altamira",
         "tem": true
       },
@@ -1452,10 +1396,6 @@
         "tem": true
       },
       {
-        "nome": "Bayeux; Cajazeiras; Campina Grande; Guarabira; Itabaiana; João Pessoa; Mamanguape; Monteiro; Patos; Piancó; Pombal; Princesa Isabel; Santa Rita; Sapé; Sousa",
-        "tem": true
-      },
-      {
         "nome": "Cajazeiras",
         "tem": true
       },
@@ -1515,10 +1455,6 @@
     "PARANÁ": [
       {
         "nome": "Almirante Tamandaré",
-        "tem": true
-      },
-      {
-        "nome": "Almirante Tamandaré; Apucarana; Arapongas; Araucária; Bandeirantes; Cambé; Campo Largo; Campo Mourão; Cascavel; Castro; Cianorte; Colombo; Cornélio Procópio; Curitiba; Cândido de Abreu; Fazenda Rio Grande; Foz do Iguaçu; Francisco Beltrão; Guarapuava; Irati; Jacarezinho; Loanda; Londrina; Maringá; Palmas; Paranaguá; Paranavaí; Pato Branco; Pinhais; Piraquara; Ponta Grossa; Sarandi; São José dos Pinhais; Telêmaco Borba; Toledo; Umuarama; União da Vitória; Wenceslau Braz",
         "tem": true
       },
       {
@@ -1676,10 +1612,6 @@
         "tem": true
       },
       {
-        "nome": "Afogados da Ingazeira; Araripina; Arcoverde; Belo Jardim; Bezerros; Bonito; Caruaru; Floresta; Garanhuns; Goiana; Ipojuca; JABOATÃO DOS GUARARAPES; Olinda; Ouricuri; Palmares; Paulista; Pesqueira; Petrolina; Recife; Salgueiro; Santa Cruz do Capibaribe; Serra Talhada; Surubim; Vitória de Santo Antão",
-        "tem": true
-      },
-      {
         "nome": "Araripina",
         "tem": true
       },
@@ -1778,10 +1710,6 @@
         "tem": true
       },
       {
-        "nome": "Barras; Bom Jesus; Campo Maior; Corrente; Floriano; Oeiras; Parnaíba; Pedro II; Picos; Piripiri; São Raimundo Nonato; Teresina; Uruçuí; Valença do Piauí",
-        "tem": true
-      },
-      {
         "nome": "Bom Jesus",
         "tem": true
       },
@@ -1837,10 +1765,6 @@
     "RIO DE JANEIRO": [
       {
         "nome": "Angra dos Reis",
-        "tem": true
-      },
-      {
-        "nome": "Angra dos Reis; Araruama; Barra Mansa; Belford Roxo; Bom Jesus do Itabapoana; Cabo Frio; Campos dos Goytacazes; Casimiro de Abreu; Duque de Caxias; Iguaba Grande; Itaboraí; Itaperuna; Japeri; Macaé; Magé; Maricá; Mesquita; Miracema; Nilópolis; Niterói; Nova Friburgo; Nova Iguaçu; Paraty; Petrópolis; Porciúncula; Queimados; Resende; Rio de Janeiro; Seropédica; São Francisco de Itabapoana; São Gonçalo; São João de Meriti; Teresópolis; Três Rios; Valença; Vassouras; Volta Redonda",
         "tem": true
       },
       {
@@ -1994,10 +1918,6 @@
         "tem": true
       },
       {
-        "nome": "Angicos; Apodi; Açu; Caicó; Ceará-Mirim; Currais Novos; João Câmara; Macau; Macaíba; Mossoró; Natal; Nova Cruz; Parnamirim; Pau dos Ferros; São Gonçalo do Amarante; São José de Mipibú",
-        "tem": true
-      },
-      {
         "nome": "Apodi",
         "tem": true
       },
@@ -2061,10 +1981,6 @@
     "RIO GRANDE DO SUL": [
       {
         "nome": "Alegrete",
-        "tem": true
-      },
-      {
-        "nome": "Alegrete; Alvorada; Bagé; Bento Gonçalves; Cachoeira do Sul; Cachoeirinha; Canoas; Capão da Canoa; Carazinho; Caxias do Sul; Cruz Alta; Erechim; Frederico Westphalen; Giruá; Gravataí; Guaíba; Ijuí; Lajeado; Montenegro; Novo Hamburgo; Novo Prata; Osório; Palmares do Sul; Passo Fundo; Pelotas; Porto Alegre; Quaraí; Rio Grande; Rio Pardo; Santa Cruz do Sul; Santa Maria; Santa Rosa; Santana do Livramento; Santo Ângelo; Sapiranga; Sapucaia do Sul; Sarandi; São Gabriel; São Leopoldo; Torres; Tramandaí; Uruguaiana; Vacaria; Venâncio Aires; Viamão",
         "tem": true
       },
       {
@@ -2250,10 +2166,6 @@
         "tem": true
       },
       {
-        "nome": "Ariquemes; Cacoal; Colorado do Oeste; Espigão do Oeste; Guajará-Mirim; Jaru; Ji-Paraná; Ouro Preto do Oeste; Pimenta Bueno; Porto Velho; Rolim de Moura; Vilhena",
-        "tem": true
-      },
-      {
         "nome": "Cacoal",
         "tem": true
       },
@@ -2304,10 +2216,6 @@
         "tem": true
       },
       {
-        "nome": "Boa Vista; Bonfim; Caracaraí; Mucajaí; Pacaraima; Rorainópolis; São Luiz",
-        "tem": true
-      },
-      {
         "nome": "Bonfim",
         "tem": true
       },
@@ -2335,10 +2243,6 @@
     "SANTA CATARINA": [
       {
         "nome": "Araranguá",
-        "tem": true
-      },
-      {
-        "nome": "Araranguá; Balneário Camboriú; Biguaçu; Blumenau; Camboriú; Canoinhas; Caçador; Chapecó; Concórdia; Criciúma; Florianópolis; Gaspar; Itajaí; Ituporanga; Jaraguá do Sul; Joaçaba; Joinville; Lages; Laguna; Mafra; Navegantes; Palhoça; São Bento do Sul; São Francisco do Sul; São José; Tubarão; Videira; Xanxerê",
         "tem": true
       },
       {
@@ -2453,10 +2357,6 @@
     "SÃO PAULO": [
       {
         "nome": "Araraquara",
-        "tem": true
-      },
-      {
-        "nome": "Araraquara; Araçatuba; Atibaia; Avaré; Barretos; Bauru; Bragança Paulista; Brasília; Campinas; Caraguatatuba; Carapicuíba; Diadema; Ferraz de Vasconcelos; Franca; Francisco Morato; Franco da Rocha; Guarujá; Guarulhos; Itanhaém; Itapecerica da Serra; Itapetininga; Itapevi; Itaquaquecetuba; Jacareí; Jaú; Jundiaí; Limeira; Marília; Mauá; Mogi das Cruzes; Osasco; Piracicaba; Praia Grande; Presidente Prudente; Registro; Ribeirão Preto; Rio Claro; Santo André; Santos; Sorocaba; Suzano; São Bernardo do Campo; São Carlos; São José do Rio Preto; São José dos Campos; São Paulo; São Sebastião; São Vicente; Taboão da Serra; Taubaté; Tupã",
         "tem": true
       },
       {
@@ -2666,10 +2566,6 @@
         "tem": true
       },
       {
-        "nome": "Aracaju; Barra dos Coqueiros; Estância; Itabaiana; Itabaianinha; Lagarto; Nossa Senhora das Dores; Nossa Senhora do Socorro; Poço Redondo; Propriá; Simão Dias; São Cristóvão; Tobias Barreto",
-        "tem": true
-      },
-      {
         "nome": "Barra dos Coqueiros",
         "tem": true
       },
@@ -2721,10 +2617,6 @@
     "TOCANTINS": [
       {
         "nome": "Araguaína",
-        "tem": true
-      },
-      {
-        "nome": "Araguaína; Arraias; Colinas do Tocantins; Dianópolis; Formoso do Araguaia; Guaraí; Gurupi; Miracema do Tocantins; Palmas; Paraíso do Tocantins; Porto Nacional; Tocantinópolis",
         "tem": true
       },
       {
