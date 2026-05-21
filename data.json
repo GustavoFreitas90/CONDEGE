@@ -218,45 +218,457 @@
     }
   },
   "comarcas": {
+    "ACRE": [
+      {
+        "nome": "Brasiléia",
+        "tem": true
+      },
+      {
+        "nome": "Brasiléia; Cruzeiro do Sul; Epitaciolândia; Feijó; Mâncio Lima; Rio Branco; Sena Madureira; Tarauacá; Xapuri",
+        "tem": true
+      },
+      {
+        "nome": "Cruzeiro do Sul",
+        "tem": true
+      },
+      {
+        "nome": "Epitaciolândia",
+        "tem": true
+      },
+      {
+        "nome": "Feijó",
+        "tem": true
+      },
+      {
+        "nome": "Mâncio Lima",
+        "tem": true
+      },
+      {
+        "nome": "Rio Branco",
+        "tem": true
+      },
+      {
+        "nome": "Sena Madureira",
+        "tem": true
+      },
+      {
+        "nome": "Tarauacá",
+        "tem": true
+      },
+      {
+        "nome": "Xapuri",
+        "tem": true
+      }
+    ],
+    "ALAGOAS": [
+      {
+        "nome": "Arapiraca",
+        "tem": true
+      },
+      {
+        "nome": "Arapiraca; Delmiro Gouveia; Maceió; Marechal Deodoro; Murici; Palmeira dos Índios; Penedo; Rio Largo; Santana do Ipanema; São Miguel dos Campos; União dos Palmares; Viçosa",
+        "tem": true
+      },
+      {
+        "nome": "Delmiro Gouveia",
+        "tem": true
+      },
+      {
+        "nome": "Maceió",
+        "tem": true
+      },
+      {
+        "nome": "Marechal Deodoro",
+        "tem": true
+      },
+      {
+        "nome": "Murici",
+        "tem": true
+      },
+      {
+        "nome": "Palmeira dos Índios",
+        "tem": true
+      },
+      {
+        "nome": "Penedo",
+        "tem": true
+      },
+      {
+        "nome": "Rio Largo",
+        "tem": true
+      },
+      {
+        "nome": "Santana do Ipanema",
+        "tem": true
+      },
+      {
+        "nome": "São Miguel dos Campos",
+        "tem": true
+      },
+      {
+        "nome": "União dos Palmares",
+        "tem": true
+      },
+      {
+        "nome": "Viçosa",
+        "tem": true
+      }
+    ],
+    "AMAPÁ": [
+      {
+        "nome": "Amapá",
+        "tem": true
+      },
+      {
+        "nome": "Amapá; Laranjal do Jari; Macapá; Mazagão; Oiapoque; Porto Grande; Santana",
+        "tem": true
+      },
+      {
+        "nome": "Laranjal do Jari",
+        "tem": true
+      },
+      {
+        "nome": "Macapá",
+        "tem": true
+      },
+      {
+        "nome": "Mazagão",
+        "tem": true
+      },
+      {
+        "nome": "Oiapoque",
+        "tem": true
+      },
+      {
+        "nome": "Porto Grande",
+        "tem": true
+      },
+      {
+        "nome": "Santana",
+        "tem": true
+      }
+    ],
+    "AMAZONAS": [
+      {
+        "nome": "Autazes",
+        "tem": true
+      },
+      {
+        "nome": "Autazes; Careiro; Coari; Envira; Humaitá; Itacoatiara; Lábrea; Manacapuru; Manaus; Maués; Parintins; Presidente Figueiredo; São Gabriel da Cachoeira; Tabatinga; Tefé",
+        "tem": true
+      },
+      {
+        "nome": "Careiro",
+        "tem": true
+      },
+      {
+        "nome": "Coari",
+        "tem": true
+      },
+      {
+        "nome": "Envira",
+        "tem": true
+      },
+      {
+        "nome": "Humaitá",
+        "tem": true
+      },
+      {
+        "nome": "Itacoatiara",
+        "tem": true
+      },
+      {
+        "nome": "Lábrea",
+        "tem": true
+      },
+      {
+        "nome": "Manacapuru",
+        "tem": true
+      },
+      {
+        "nome": "Manaus",
+        "tem": true
+      },
+      {
+        "nome": "Maués",
+        "tem": true
+      },
+      {
+        "nome": "Parintins",
+        "tem": true
+      },
+      {
+        "nome": "Presidente Figueiredo",
+        "tem": true
+      },
+      {
+        "nome": "São Gabriel da Cachoeira",
+        "tem": true
+      },
+      {
+        "nome": "Tabatinga",
+        "tem": true
+      },
+      {
+        "nome": "Tefé",
+        "tem": true
+      }
+    ],
+    "BAHIA": [
+      {
+        "nome": "Alagoinhas",
+        "tem": true
+      },
+      {
+        "nome": "Alagoinhas; Barreiras; Brumado; Cachoeira; Camaçari; Conceição do Coité; Cruz das Almas; Eunápolis; Feira de Santana; Guanambi; Ibotirama; Ilhéus; Ipirá; Irecê; Itaberaba; Itabuna; Jacobina; Jequié; Juazeiro; Lauro de Freitas; Livramento de Nossa Senhora; Paulo Afonso; Porto Seguro; Ribeira do Pombal; Salvador; Santo Amaro; Santo Antônio de Jesus; Seabra; Senhor do Bonfim; Serrinha; Simões Filho; Teixeira de Freitas; Valença; Vitória da Conquista",
+        "tem": true
+      },
+      {
+        "nome": "Barreiras",
+        "tem": true
+      },
+      {
+        "nome": "Brumado",
+        "tem": true
+      },
+      {
+        "nome": "Cachoeira",
+        "tem": true
+      },
+      {
+        "nome": "Camaçari",
+        "tem": true
+      },
+      {
+        "nome": "Conceição do Coité",
+        "tem": true
+      },
+      {
+        "nome": "Cruz das Almas",
+        "tem": true
+      },
+      {
+        "nome": "Eunápolis",
+        "tem": true
+      },
+      {
+        "nome": "Feira de Santana",
+        "tem": true
+      },
+      {
+        "nome": "Guanambi",
+        "tem": true
+      },
+      {
+        "nome": "Ibotirama",
+        "tem": true
+      },
+      {
+        "nome": "Ilhéus",
+        "tem": true
+      },
+      {
+        "nome": "Ipirá",
+        "tem": true
+      },
+      {
+        "nome": "Irecê",
+        "tem": true
+      },
+      {
+        "nome": "Itaberaba",
+        "tem": true
+      },
+      {
+        "nome": "Itabuna",
+        "tem": true
+      },
+      {
+        "nome": "Jacobina",
+        "tem": true
+      },
+      {
+        "nome": "Jequié",
+        "tem": true
+      },
+      {
+        "nome": "Juazeiro",
+        "tem": true
+      },
+      {
+        "nome": "Lauro de Freitas",
+        "tem": true
+      },
+      {
+        "nome": "Livramento de Nossa Senhora",
+        "tem": true
+      },
+      {
+        "nome": "Paulo Afonso",
+        "tem": true
+      },
+      {
+        "nome": "Porto Seguro",
+        "tem": true
+      },
+      {
+        "nome": "Ribeira do Pombal",
+        "tem": true
+      },
+      {
+        "nome": "Salvador",
+        "tem": true
+      },
+      {
+        "nome": "Santo Amaro",
+        "tem": true
+      },
+      {
+        "nome": "Santo Antônio de Jesus",
+        "tem": true
+      },
+      {
+        "nome": "Seabra",
+        "tem": true
+      },
+      {
+        "nome": "Senhor do Bonfim",
+        "tem": true
+      },
+      {
+        "nome": "Serrinha",
+        "tem": true
+      },
+      {
+        "nome": "Simões Filho",
+        "tem": true
+      },
+      {
+        "nome": "Teixeira de Freitas",
+        "tem": true
+      },
+      {
+        "nome": "Valença",
+        "tem": true
+      },
+      {
+        "nome": "Vitória da Conquista",
+        "tem": true
+      }
+    ],
+    "CEARÁ": [
+      {
+        "nome": "Aquiraz",
+        "tem": true
+      },
+      {
+        "nome": "Aquiraz; Aracati; Baturité; Brejo Santo; Camocim; Canindé; Caucaia; Crateús; Crato; Fortaleza; Guaraciaba do Norte; Horizonte; Icó; Iguatu; Itapipoca; Juazeiro do Norte; Limoeiro do Norte; Maracanaú; Maranguape; Morada Nova; Pacatuba; Quixadá; Russas; Sobral; Tianguá",
+        "tem": true
+      },
+      {
+        "nome": "Aracati",
+        "tem": true
+      },
+      {
+        "nome": "Baturité",
+        "tem": true
+      },
+      {
+        "nome": "Brejo Santo",
+        "tem": true
+      },
+      {
+        "nome": "Camocim",
+        "tem": true
+      },
+      {
+        "nome": "Canindé",
+        "tem": true
+      },
+      {
+        "nome": "Caucaia",
+        "tem": true
+      },
+      {
+        "nome": "Crateús",
+        "tem": true
+      },
+      {
+        "nome": "Crato",
+        "tem": true
+      },
+      {
+        "nome": "Fortaleza",
+        "tem": true
+      },
+      {
+        "nome": "Guaraciaba do Norte",
+        "tem": true
+      },
+      {
+        "nome": "Horizonte",
+        "tem": true
+      },
+      {
+        "nome": "Icó",
+        "tem": true
+      },
+      {
+        "nome": "Iguatu",
+        "tem": true
+      },
+      {
+        "nome": "Itapipoca",
+        "tem": true
+      },
+      {
+        "nome": "Juazeiro do Norte",
+        "tem": true
+      },
+      {
+        "nome": "Limoeiro do Norte",
+        "tem": true
+      },
+      {
+        "nome": "Maracanaú",
+        "tem": true
+      },
+      {
+        "nome": "Maranguape",
+        "tem": true
+      },
+      {
+        "nome": "Morada Nova",
+        "tem": true
+      },
+      {
+        "nome": "Pacatuba",
+        "tem": true
+      },
+      {
+        "nome": "Quixadá",
+        "tem": true
+      },
+      {
+        "nome": "Russas",
+        "tem": true
+      },
+      {
+        "nome": "Sobral",
+        "tem": true
+      },
+      {
+        "nome": "Tianguá",
+        "tem": true
+      }
+    ],
     "DISTRITO FEDERAL": [
       {
-        "nome": "Brasília (1ª RAJ)",
+        "nome": "Brasília (Plano Piloto)",
         "tem": true
       },
       {
-        "nome": "Brasília (2ª RAJ)",
-        "tem": true
-      },
-      {
-        "nome": "Brasília (3ª RAJ)",
-        "tem": true
-      },
-      {
-        "nome": "Taguatinga",
-        "tem": true
-      },
-      {
-        "nome": "Ceilândia",
-        "tem": true
-      },
-      {
-        "nome": "Samambaia",
-        "tem": true
-      },
-      {
-        "nome": "Gama",
-        "tem": true
-      },
-      {
-        "nome": "Planaltina",
-        "tem": true
-      },
-      {
-        "nome": "Sobradinho",
-        "tem": true
-      },
-      {
-        "nome": "Paranoá",
+        "nome": "Brasília (Plano Piloto); Brazlândia; Ceilândia; Gama; Núcleo Bandeirante; Paranoá; Planaltina; Recanto das Emas; Riacho Fundo; Samambaia; Sobradinho; São Sebastião; Taguatinga",
         "tem": true
       },
       {
@@ -264,91 +676,495 @@
         "tem": true
       },
       {
+        "nome": "Ceilândia",
+        "tem": true
+      },
+      {
+        "nome": "Gama",
+        "tem": true
+      },
+      {
+        "nome": "Núcleo Bandeirante",
+        "tem": true
+      },
+      {
+        "nome": "Paranoá",
+        "tem": true
+      },
+      {
+        "nome": "Planaltina",
+        "tem": true
+      },
+      {
+        "nome": "Recanto das Emas",
+        "tem": true
+      },
+      {
+        "nome": "Riacho Fundo",
+        "tem": true
+      },
+      {
+        "nome": "Samambaia",
+        "tem": true
+      },
+      {
+        "nome": "Sobradinho",
+        "tem": true
+      },
+      {
         "nome": "São Sebastião",
         "tem": true
       },
       {
-        "nome": "Santa Maria",
+        "nome": "Taguatinga",
         "tem": true
       }
     ],
-    "SÃO PAULO": [
+    "ESPÍRITO SANTO": [
       {
-        "nome": "São Paulo (Capital)",
+        "nome": "Alegre",
         "tem": true
       },
       {
-        "nome": "Campinas",
+        "nome": "Alegre; Anchieta; Aracruz; Barra de São Francisco; Cachoeiro de Itapemirim; Cariacica; Colatina; Ecoporanga; Guarapari; Iconha; Itapemirim; Linhares; Montanha; Nova Venécia; Piúma; Serra; São Mateus; Viana; Vila Velha; Vitória",
         "tem": true
       },
       {
-        "nome": "Santos",
+        "nome": "Anchieta",
         "tem": true
       },
       {
-        "nome": "Ribeirão Preto",
+        "nome": "Aracruz",
         "tem": true
       },
       {
-        "nome": "Sorocaba",
+        "nome": "Barra de São Francisco",
         "tem": true
       },
       {
-        "nome": "São José dos Campos",
+        "nome": "Cachoeiro de Itapemirim",
         "tem": true
       },
       {
-        "nome": "Osasco",
+        "nome": "Cariacica",
         "tem": true
       },
       {
-        "nome": "Guarulhos",
+        "nome": "Colatina",
         "tem": true
       },
       {
-        "nome": "Bauru",
+        "nome": "Ecoporanga",
         "tem": true
       },
       {
-        "nome": "Jundiaí",
+        "nome": "Guarapari",
         "tem": true
       },
       {
-        "nome": "Piracicaba",
+        "nome": "Iconha",
         "tem": true
       },
       {
-        "nome": "Presidente Prudente",
+        "nome": "Itapemirim",
         "tem": true
       },
       {
-        "nome": "São José do Rio Preto",
+        "nome": "Linhares",
         "tem": true
       },
       {
-        "nome": "Araçatuba",
-        "tem": false
+        "nome": "Montanha",
+        "tem": true
       },
       {
-        "nome": "Catanduva",
-        "tem": false
+        "nome": "Nova Venécia",
+        "tem": true
+      },
+      {
+        "nome": "Piúma",
+        "tem": true
+      },
+      {
+        "nome": "Serra",
+        "tem": true
+      },
+      {
+        "nome": "São Mateus",
+        "tem": true
+      },
+      {
+        "nome": "Viana",
+        "tem": true
+      },
+      {
+        "nome": "Vila Velha",
+        "tem": true
+      },
+      {
+        "nome": "Vitória",
+        "tem": true
+      }
+    ],
+    "GOIÁS": [
+      {
+        "nome": "Anápolis",
+        "tem": true
+      },
+      {
+        "nome": "Anápolis; Aparecida de Goiânia; Caldas Novas; Catalão; Ceres; Formosa; Goianira; Goianésia; Goiânia; Inhumas; Itumbiara; Jataí; Luziânia; Mineiros; Morrinhos; Niquelândia; Novo Gama; Pires do Rio; Planaltina; Porangatu; Rio Verde; Senador Canedo; Trindade; Uruaçu; Valparaíso de Goiás; Águas Lindas de Goiás",
+        "tem": true
+      },
+      {
+        "nome": "Aparecida de Goiânia",
+        "tem": true
+      },
+      {
+        "nome": "Caldas Novas",
+        "tem": true
+      },
+      {
+        "nome": "Catalão",
+        "tem": true
+      },
+      {
+        "nome": "Ceres",
+        "tem": true
+      },
+      {
+        "nome": "Formosa",
+        "tem": true
+      },
+      {
+        "nome": "Goianira",
+        "tem": true
+      },
+      {
+        "nome": "Goianésia",
+        "tem": true
+      },
+      {
+        "nome": "Goiânia",
+        "tem": true
+      },
+      {
+        "nome": "Inhumas",
+        "tem": true
+      },
+      {
+        "nome": "Itumbiara",
+        "tem": true
+      },
+      {
+        "nome": "Jataí",
+        "tem": true
+      },
+      {
+        "nome": "Luziânia",
+        "tem": true
+      },
+      {
+        "nome": "Mineiros",
+        "tem": true
+      },
+      {
+        "nome": "Morrinhos",
+        "tem": true
+      },
+      {
+        "nome": "Niquelândia",
+        "tem": true
+      },
+      {
+        "nome": "Novo Gama",
+        "tem": true
+      },
+      {
+        "nome": "Pires do Rio",
+        "tem": true
+      },
+      {
+        "nome": "Planaltina",
+        "tem": true
+      },
+      {
+        "nome": "Porangatu",
+        "tem": true
+      },
+      {
+        "nome": "Rio Verde",
+        "tem": true
+      },
+      {
+        "nome": "Senador Canedo",
+        "tem": true
+      },
+      {
+        "nome": "Trindade",
+        "tem": true
+      },
+      {
+        "nome": "Uruaçu",
+        "tem": true
+      },
+      {
+        "nome": "Valparaíso de Goiás",
+        "tem": true
+      },
+      {
+        "nome": "Águas Lindas de Goiás",
+        "tem": true
+      }
+    ],
+    "MARANHÃO": [
+      {
+        "nome": "Açailândia",
+        "tem": true
+      },
+      {
+        "nome": "Açailândia; Bacabal; Balsas; Barra do Corda; Bom Jesus das Selvas; Carolina; Caxias; Chapadinha; Codó; Coroatá; Grajaú; Imperatriz; Paço do Lumiar; Pedreiras; Pinheiro; Presidente Dutra; Santa Inês; São João dos Patos; São Luís; Timon; Viana",
+        "tem": true
+      },
+      {
+        "nome": "Bacabal",
+        "tem": true
+      },
+      {
+        "nome": "Balsas",
+        "tem": true
+      },
+      {
+        "nome": "Barra do Corda",
+        "tem": true
+      },
+      {
+        "nome": "Bom Jesus das Selvas",
+        "tem": true
+      },
+      {
+        "nome": "Carolina",
+        "tem": true
+      },
+      {
+        "nome": "Caxias",
+        "tem": true
+      },
+      {
+        "nome": "Chapadinha",
+        "tem": true
+      },
+      {
+        "nome": "Codó",
+        "tem": true
+      },
+      {
+        "nome": "Coroatá",
+        "tem": true
+      },
+      {
+        "nome": "Grajaú",
+        "tem": true
+      },
+      {
+        "nome": "Imperatriz",
+        "tem": true
+      },
+      {
+        "nome": "Paço do Lumiar",
+        "tem": true
+      },
+      {
+        "nome": "Pedreiras",
+        "tem": true
+      },
+      {
+        "nome": "Pinheiro",
+        "tem": true
+      },
+      {
+        "nome": "Presidente Dutra",
+        "tem": true
+      },
+      {
+        "nome": "Santa Inês",
+        "tem": true
+      },
+      {
+        "nome": "São João dos Patos",
+        "tem": true
+      },
+      {
+        "nome": "São Luís",
+        "tem": true
+      },
+      {
+        "nome": "Timon",
+        "tem": true
+      },
+      {
+        "nome": "Viana",
+        "tem": true
+      }
+    ],
+    "MATO GROSSO": [
+      {
+        "nome": "Alta Floresta",
+        "tem": true
+      },
+      {
+        "nome": "Alta Floresta; Barra do Garças; Campo Novo do Parecis; Colíder; Cuiabá; Cáceres; Juara; Lucas do Rio Verde; Nova Mutum; Peixoto de Azevedo; Primavera do Leste; Rondonópolis; Sinop; Sorriso; Tangará da Serra; Várzea Grande",
+        "tem": true
+      },
+      {
+        "nome": "Barra do Garças",
+        "tem": true
+      },
+      {
+        "nome": "Campo Novo do Parecis",
+        "tem": true
+      },
+      {
+        "nome": "Colíder",
+        "tem": true
+      },
+      {
+        "nome": "Cuiabá",
+        "tem": true
+      },
+      {
+        "nome": "Cáceres",
+        "tem": true
+      },
+      {
+        "nome": "Juara",
+        "tem": true
+      },
+      {
+        "nome": "Lucas do Rio Verde",
+        "tem": true
+      },
+      {
+        "nome": "Nova Mutum",
+        "tem": true
+      },
+      {
+        "nome": "Peixoto de Azevedo",
+        "tem": true
+      },
+      {
+        "nome": "Primavera do Leste",
+        "tem": true
+      },
+      {
+        "nome": "Rondonópolis",
+        "tem": true
+      },
+      {
+        "nome": "Sinop",
+        "tem": true
+      },
+      {
+        "nome": "Sorriso",
+        "tem": true
+      },
+      {
+        "nome": "Tangará da Serra",
+        "tem": true
+      },
+      {
+        "nome": "Várzea Grande",
+        "tem": true
+      }
+    ],
+    "MATO GROSSO DO SUL": [
+      {
+        "nome": "Aquidauana",
+        "tem": true
+      },
+      {
+        "nome": "Aquidauana; Camapuã; Campo Grande; Cassilândia; Corumbá; Coxim; Dourados; Maracaju; Naviraí; Nova Andradina; Paranaíba; Ponta Porã; Rio Verde de Mato Grosso; Sidrolândia; Três Lagoas",
+        "tem": true
+      },
+      {
+        "nome": "Camapuã",
+        "tem": true
+      },
+      {
+        "nome": "Campo Grande",
+        "tem": true
+      },
+      {
+        "nome": "Cassilândia",
+        "tem": true
+      },
+      {
+        "nome": "Corumbá",
+        "tem": true
+      },
+      {
+        "nome": "Coxim",
+        "tem": true
+      },
+      {
+        "nome": "Dourados",
+        "tem": true
+      },
+      {
+        "nome": "Maracaju",
+        "tem": true
+      },
+      {
+        "nome": "Naviraí",
+        "tem": true
+      },
+      {
+        "nome": "Nova Andradina",
+        "tem": true
+      },
+      {
+        "nome": "Paranaíba",
+        "tem": true
+      },
+      {
+        "nome": "Ponta Porã",
+        "tem": true
+      },
+      {
+        "nome": "Rio Verde de Mato Grosso",
+        "tem": true
+      },
+      {
+        "nome": "Sidrolândia",
+        "tem": true
+      },
+      {
+        "nome": "Três Lagoas",
+        "tem": true
       }
     ],
     "MINAS GERAIS": [
       {
+        "nome": "Alfenas",
+        "tem": true
+      },
+      {
+        "nome": "Alfenas; Almenara; Araxá; Barbacena; Belo Horizonte; Betim; Caratinga; Cataguases; Conselheiro Lafaiete; Contagem; Coronel Fabriciano; Curvelo; Diamantina; Divinópolis; Formiga; Governador Valadares; Ibirité; Ipatinga; Itabira; Itajubá; Ituiutaba; João Monlevade; Juatuba; Juiz de Fora; Lavras; Leopoldina; Manhuaçu; Mariana; Montes Claros; Muriaé; Ouro Preto; Paracatu; Passos; Patos de Minas; Ponte Nova; Pouso Alegre; Poços de Caldas; Ribeirão das Neves; Sabará; Santa Luzia; Sete Lagoas; São João del-Rei; Teófilo Otoni; Três Corações; Uberaba; Uberlândia; Ubá; Varginha; Vespasiano; Viçosa",
+        "tem": true
+      },
+      {
+        "nome": "Almenara",
+        "tem": true
+      },
+      {
+        "nome": "Araxá",
+        "tem": true
+      },
+      {
+        "nome": "Barbacena",
+        "tem": true
+      },
+      {
         "nome": "Belo Horizonte",
-        "tem": true
-      },
-      {
-        "nome": "Uberlândia",
-        "tem": true
-      },
-      {
-        "nome": "Contagem",
-        "tem": true
-      },
-      {
-        "nome": "Juiz de Fora",
         "tem": true
       },
       {
@@ -356,15 +1172,39 @@
         "tem": true
       },
       {
-        "nome": "Montes Claros",
+        "nome": "Caratinga",
         "tem": true
       },
       {
-        "nome": "Ribeirão das Neves",
+        "nome": "Cataguases",
         "tem": true
       },
       {
-        "nome": "Uberaba",
+        "nome": "Conselheiro Lafaiete",
+        "tem": true
+      },
+      {
+        "nome": "Contagem",
+        "tem": true
+      },
+      {
+        "nome": "Coronel Fabriciano",
+        "tem": true
+      },
+      {
+        "nome": "Curvelo",
+        "tem": true
+      },
+      {
+        "nome": "Diamantina",
+        "tem": true
+      },
+      {
+        "nome": "Divinópolis",
+        "tem": true
+      },
+      {
+        "nome": "Formiga",
         "tem": true
       },
       {
@@ -372,16 +1212,1564 @@
         "tem": true
       },
       {
+        "nome": "Ibirité",
+        "tem": true
+      },
+      {
         "nome": "Ipatinga",
         "tem": true
       },
       {
-        "nome": "Sete Lagoas",
-        "tem": false
+        "nome": "Itabira",
+        "tem": true
       },
       {
-        "nome": "Divinópolis",
-        "tem": false
+        "nome": "Itajubá",
+        "tem": true
+      },
+      {
+        "nome": "Ituiutaba",
+        "tem": true
+      },
+      {
+        "nome": "João Monlevade",
+        "tem": true
+      },
+      {
+        "nome": "Juatuba",
+        "tem": true
+      },
+      {
+        "nome": "Juiz de Fora",
+        "tem": true
+      },
+      {
+        "nome": "Lavras",
+        "tem": true
+      },
+      {
+        "nome": "Leopoldina",
+        "tem": true
+      },
+      {
+        "nome": "Manhuaçu",
+        "tem": true
+      },
+      {
+        "nome": "Mariana",
+        "tem": true
+      },
+      {
+        "nome": "Montes Claros",
+        "tem": true
+      },
+      {
+        "nome": "Muriaé",
+        "tem": true
+      },
+      {
+        "nome": "Ouro Preto",
+        "tem": true
+      },
+      {
+        "nome": "Paracatu",
+        "tem": true
+      },
+      {
+        "nome": "Passos",
+        "tem": true
+      },
+      {
+        "nome": "Patos de Minas",
+        "tem": true
+      },
+      {
+        "nome": "Ponte Nova",
+        "tem": true
+      },
+      {
+        "nome": "Pouso Alegre",
+        "tem": true
+      },
+      {
+        "nome": "Poços de Caldas",
+        "tem": true
+      },
+      {
+        "nome": "Ribeirão das Neves",
+        "tem": true
+      },
+      {
+        "nome": "Sabará",
+        "tem": true
+      },
+      {
+        "nome": "Santa Luzia",
+        "tem": true
+      },
+      {
+        "nome": "Sete Lagoas",
+        "tem": true
+      },
+      {
+        "nome": "São João del-Rei",
+        "tem": true
+      },
+      {
+        "nome": "Teófilo Otoni",
+        "tem": true
+      },
+      {
+        "nome": "Três Corações",
+        "tem": true
+      },
+      {
+        "nome": "Uberaba",
+        "tem": true
+      },
+      {
+        "nome": "Uberlândia",
+        "tem": true
+      },
+      {
+        "nome": "Ubá",
+        "tem": true
+      },
+      {
+        "nome": "Varginha",
+        "tem": true
+      },
+      {
+        "nome": "Vespasiano",
+        "tem": true
+      },
+      {
+        "nome": "Viçosa",
+        "tem": true
+      }
+    ],
+    "PARÁ": [
+      {
+        "nome": "Abaetetuba",
+        "tem": true
+      },
+      {
+        "nome": "Abaetetuba; Altamira; Ananindeua; Barcarena; Belém; Bragança; Cametá; Capanema; Castanhal; Conceição do Araguaia; Itaituba; Marabá; Marituba; Moju; Oriximiná; Paragominas; Parauapebas; Redenção; Santarém; Soure; São Felix do Xingu; Tucuruí; Vigia",
+        "tem": true
+      },
+      {
+        "nome": "Altamira",
+        "tem": true
+      },
+      {
+        "nome": "Ananindeua",
+        "tem": true
+      },
+      {
+        "nome": "Barcarena",
+        "tem": true
+      },
+      {
+        "nome": "Belém",
+        "tem": true
+      },
+      {
+        "nome": "Bragança",
+        "tem": true
+      },
+      {
+        "nome": "Cametá",
+        "tem": true
+      },
+      {
+        "nome": "Capanema",
+        "tem": true
+      },
+      {
+        "nome": "Castanhal",
+        "tem": true
+      },
+      {
+        "nome": "Conceição do Araguaia",
+        "tem": true
+      },
+      {
+        "nome": "Itaituba",
+        "tem": true
+      },
+      {
+        "nome": "Marabá",
+        "tem": true
+      },
+      {
+        "nome": "Marituba",
+        "tem": true
+      },
+      {
+        "nome": "Moju",
+        "tem": true
+      },
+      {
+        "nome": "Oriximiná",
+        "tem": true
+      },
+      {
+        "nome": "Paragominas",
+        "tem": true
+      },
+      {
+        "nome": "Parauapebas",
+        "tem": true
+      },
+      {
+        "nome": "Redenção",
+        "tem": true
+      },
+      {
+        "nome": "Santarém",
+        "tem": true
+      },
+      {
+        "nome": "Soure",
+        "tem": true
+      },
+      {
+        "nome": "São Felix do Xingu",
+        "tem": true
+      },
+      {
+        "nome": "Tucuruí",
+        "tem": true
+      },
+      {
+        "nome": "Vigia",
+        "tem": true
+      }
+    ],
+    "PARAÍBA": [
+      {
+        "nome": "Bayeux",
+        "tem": true
+      },
+      {
+        "nome": "Bayeux; Cajazeiras; Campina Grande; Guarabira; Itabaiana; João Pessoa; Mamanguape; Monteiro; Patos; Piancó; Pombal; Princesa Isabel; Santa Rita; Sapé; Sousa",
+        "tem": true
+      },
+      {
+        "nome": "Cajazeiras",
+        "tem": true
+      },
+      {
+        "nome": "Campina Grande",
+        "tem": true
+      },
+      {
+        "nome": "Guarabira",
+        "tem": true
+      },
+      {
+        "nome": "Itabaiana",
+        "tem": true
+      },
+      {
+        "nome": "João Pessoa",
+        "tem": true
+      },
+      {
+        "nome": "Mamanguape",
+        "tem": true
+      },
+      {
+        "nome": "Monteiro",
+        "tem": true
+      },
+      {
+        "nome": "Patos",
+        "tem": true
+      },
+      {
+        "nome": "Piancó",
+        "tem": true
+      },
+      {
+        "nome": "Pombal",
+        "tem": true
+      },
+      {
+        "nome": "Princesa Isabel",
+        "tem": true
+      },
+      {
+        "nome": "Santa Rita",
+        "tem": true
+      },
+      {
+        "nome": "Sapé",
+        "tem": true
+      },
+      {
+        "nome": "Sousa",
+        "tem": true
+      }
+    ],
+    "PARANÁ": [
+      {
+        "nome": "Almirante Tamandaré",
+        "tem": true
+      },
+      {
+        "nome": "Almirante Tamandaré; Apucarana; Arapongas; Araucária; Bandeirantes; Cambé; Campo Largo; Campo Mourão; Cascavel; Castro; Cianorte; Colombo; Cornélio Procópio; Curitiba; Cândido de Abreu; Fazenda Rio Grande; Foz do Iguaçu; Francisco Beltrão; Guarapuava; Irati; Jacarezinho; Loanda; Londrina; Maringá; Palmas; Paranaguá; Paranavaí; Pato Branco; Pinhais; Piraquara; Ponta Grossa; Sarandi; São José dos Pinhais; Telêmaco Borba; Toledo; Umuarama; União da Vitória; Wenceslau Braz",
+        "tem": true
+      },
+      {
+        "nome": "Apucarana",
+        "tem": true
+      },
+      {
+        "nome": "Arapongas",
+        "tem": true
+      },
+      {
+        "nome": "Araucária",
+        "tem": true
+      },
+      {
+        "nome": "Bandeirantes",
+        "tem": true
+      },
+      {
+        "nome": "Cambé",
+        "tem": true
+      },
+      {
+        "nome": "Campo Largo",
+        "tem": true
+      },
+      {
+        "nome": "Campo Mourão",
+        "tem": true
+      },
+      {
+        "nome": "Cascavel",
+        "tem": true
+      },
+      {
+        "nome": "Castro",
+        "tem": true
+      },
+      {
+        "nome": "Cianorte",
+        "tem": true
+      },
+      {
+        "nome": "Colombo",
+        "tem": true
+      },
+      {
+        "nome": "Cornélio Procópio",
+        "tem": true
+      },
+      {
+        "nome": "Curitiba",
+        "tem": true
+      },
+      {
+        "nome": "Cândido de Abreu",
+        "tem": true
+      },
+      {
+        "nome": "Fazenda Rio Grande",
+        "tem": true
+      },
+      {
+        "nome": "Foz do Iguaçu",
+        "tem": true
+      },
+      {
+        "nome": "Francisco Beltrão",
+        "tem": true
+      },
+      {
+        "nome": "Guarapuava",
+        "tem": true
+      },
+      {
+        "nome": "Irati",
+        "tem": true
+      },
+      {
+        "nome": "Jacarezinho",
+        "tem": true
+      },
+      {
+        "nome": "Loanda",
+        "tem": true
+      },
+      {
+        "nome": "Londrina",
+        "tem": true
+      },
+      {
+        "nome": "Maringá",
+        "tem": true
+      },
+      {
+        "nome": "Palmas",
+        "tem": true
+      },
+      {
+        "nome": "Paranaguá",
+        "tem": true
+      },
+      {
+        "nome": "Paranavaí",
+        "tem": true
+      },
+      {
+        "nome": "Pato Branco",
+        "tem": true
+      },
+      {
+        "nome": "Pinhais",
+        "tem": true
+      },
+      {
+        "nome": "Piraquara",
+        "tem": true
+      },
+      {
+        "nome": "Ponta Grossa",
+        "tem": true
+      },
+      {
+        "nome": "Sarandi",
+        "tem": true
+      },
+      {
+        "nome": "São José dos Pinhais",
+        "tem": true
+      },
+      {
+        "nome": "Telêmaco Borba",
+        "tem": true
+      },
+      {
+        "nome": "Toledo",
+        "tem": true
+      },
+      {
+        "nome": "Umuarama",
+        "tem": true
+      },
+      {
+        "nome": "União da Vitória",
+        "tem": true
+      },
+      {
+        "nome": "Wenceslau Braz",
+        "tem": true
+      }
+    ],
+    "PERNAMBUCO": [
+      {
+        "nome": "Afogados da Ingazeira",
+        "tem": true
+      },
+      {
+        "nome": "Afogados da Ingazeira; Araripina; Arcoverde; Belo Jardim; Bezerros; Bonito; Caruaru; Floresta; Garanhuns; Goiana; Ipojuca; JABOATÃO DOS GUARARAPES; Olinda; Ouricuri; Palmares; Paulista; Pesqueira; Petrolina; Recife; Salgueiro; Santa Cruz do Capibaribe; Serra Talhada; Surubim; Vitória de Santo Antão",
+        "tem": true
+      },
+      {
+        "nome": "Araripina",
+        "tem": true
+      },
+      {
+        "nome": "Arcoverde",
+        "tem": true
+      },
+      {
+        "nome": "Belo Jardim",
+        "tem": true
+      },
+      {
+        "nome": "Bezerros",
+        "tem": true
+      },
+      {
+        "nome": "Bonito",
+        "tem": true
+      },
+      {
+        "nome": "Caruaru",
+        "tem": true
+      },
+      {
+        "nome": "Floresta",
+        "tem": true
+      },
+      {
+        "nome": "Garanhuns",
+        "tem": true
+      },
+      {
+        "nome": "Goiana",
+        "tem": true
+      },
+      {
+        "nome": "Ipojuca",
+        "tem": true
+      },
+      {
+        "nome": "JABOATÃO DOS GUARARAPES",
+        "tem": true
+      },
+      {
+        "nome": "Olinda",
+        "tem": true
+      },
+      {
+        "nome": "Ouricuri",
+        "tem": true
+      },
+      {
+        "nome": "Palmares",
+        "tem": true
+      },
+      {
+        "nome": "Paulista",
+        "tem": true
+      },
+      {
+        "nome": "Pesqueira",
+        "tem": true
+      },
+      {
+        "nome": "Petrolina",
+        "tem": true
+      },
+      {
+        "nome": "Recife",
+        "tem": true
+      },
+      {
+        "nome": "Salgueiro",
+        "tem": true
+      },
+      {
+        "nome": "Santa Cruz do Capibaribe",
+        "tem": true
+      },
+      {
+        "nome": "Serra Talhada",
+        "tem": true
+      },
+      {
+        "nome": "Surubim",
+        "tem": true
+      },
+      {
+        "nome": "Vitória de Santo Antão",
+        "tem": true
+      }
+    ],
+    "PIAUÍ": [
+      {
+        "nome": "Barras",
+        "tem": true
+      },
+      {
+        "nome": "Barras; Bom Jesus; Campo Maior; Corrente; Floriano; Oeiras; Parnaíba; Pedro II; Picos; Piripiri; São Raimundo Nonato; Teresina; Uruçuí; Valença do Piauí",
+        "tem": true
+      },
+      {
+        "nome": "Bom Jesus",
+        "tem": true
+      },
+      {
+        "nome": "Campo Maior",
+        "tem": true
+      },
+      {
+        "nome": "Corrente",
+        "tem": true
+      },
+      {
+        "nome": "Floriano",
+        "tem": true
+      },
+      {
+        "nome": "Oeiras",
+        "tem": true
+      },
+      {
+        "nome": "Parnaíba",
+        "tem": true
+      },
+      {
+        "nome": "Pedro II",
+        "tem": true
+      },
+      {
+        "nome": "Picos",
+        "tem": true
+      },
+      {
+        "nome": "Piripiri",
+        "tem": true
+      },
+      {
+        "nome": "São Raimundo Nonato",
+        "tem": true
+      },
+      {
+        "nome": "Teresina",
+        "tem": true
+      },
+      {
+        "nome": "Uruçuí",
+        "tem": true
+      },
+      {
+        "nome": "Valença do Piauí",
+        "tem": true
+      }
+    ],
+    "RIO DE JANEIRO": [
+      {
+        "nome": "Angra dos Reis",
+        "tem": true
+      },
+      {
+        "nome": "Angra dos Reis; Araruama; Barra Mansa; Belford Roxo; Bom Jesus do Itabapoana; Cabo Frio; Campos dos Goytacazes; Casimiro de Abreu; Duque de Caxias; Iguaba Grande; Itaboraí; Itaperuna; Japeri; Macaé; Magé; Maricá; Mesquita; Miracema; Nilópolis; Niterói; Nova Friburgo; Nova Iguaçu; Paraty; Petrópolis; Porciúncula; Queimados; Resende; Rio de Janeiro; Seropédica; São Francisco de Itabapoana; São Gonçalo; São João de Meriti; Teresópolis; Três Rios; Valença; Vassouras; Volta Redonda",
+        "tem": true
+      },
+      {
+        "nome": "Araruama",
+        "tem": true
+      },
+      {
+        "nome": "Barra Mansa",
+        "tem": true
+      },
+      {
+        "nome": "Belford Roxo",
+        "tem": true
+      },
+      {
+        "nome": "Bom Jesus do Itabapoana",
+        "tem": true
+      },
+      {
+        "nome": "Cabo Frio",
+        "tem": true
+      },
+      {
+        "nome": "Campos dos Goytacazes",
+        "tem": true
+      },
+      {
+        "nome": "Casimiro de Abreu",
+        "tem": true
+      },
+      {
+        "nome": "Duque de Caxias",
+        "tem": true
+      },
+      {
+        "nome": "Iguaba Grande",
+        "tem": true
+      },
+      {
+        "nome": "Itaboraí",
+        "tem": true
+      },
+      {
+        "nome": "Itaperuna",
+        "tem": true
+      },
+      {
+        "nome": "Japeri",
+        "tem": true
+      },
+      {
+        "nome": "Macaé",
+        "tem": true
+      },
+      {
+        "nome": "Magé",
+        "tem": true
+      },
+      {
+        "nome": "Maricá",
+        "tem": true
+      },
+      {
+        "nome": "Mesquita",
+        "tem": true
+      },
+      {
+        "nome": "Miracema",
+        "tem": true
+      },
+      {
+        "nome": "Nilópolis",
+        "tem": true
+      },
+      {
+        "nome": "Niterói",
+        "tem": true
+      },
+      {
+        "nome": "Nova Friburgo",
+        "tem": true
+      },
+      {
+        "nome": "Nova Iguaçu",
+        "tem": true
+      },
+      {
+        "nome": "Paraty",
+        "tem": true
+      },
+      {
+        "nome": "Petrópolis",
+        "tem": true
+      },
+      {
+        "nome": "Porciúncula",
+        "tem": true
+      },
+      {
+        "nome": "Queimados",
+        "tem": true
+      },
+      {
+        "nome": "Resende",
+        "tem": true
+      },
+      {
+        "nome": "Rio de Janeiro",
+        "tem": true
+      },
+      {
+        "nome": "Seropédica",
+        "tem": true
+      },
+      {
+        "nome": "São Francisco de Itabapoana",
+        "tem": true
+      },
+      {
+        "nome": "São Gonçalo",
+        "tem": true
+      },
+      {
+        "nome": "São João de Meriti",
+        "tem": true
+      },
+      {
+        "nome": "Teresópolis",
+        "tem": true
+      },
+      {
+        "nome": "Três Rios",
+        "tem": true
+      },
+      {
+        "nome": "Valença",
+        "tem": true
+      },
+      {
+        "nome": "Vassouras",
+        "tem": true
+      },
+      {
+        "nome": "Volta Redonda",
+        "tem": true
+      }
+    ],
+    "RIO GRANDE DO NORTE": [
+      {
+        "nome": "Angicos",
+        "tem": true
+      },
+      {
+        "nome": "Angicos; Apodi; Açu; Caicó; Ceará-Mirim; Currais Novos; João Câmara; Macau; Macaíba; Mossoró; Natal; Nova Cruz; Parnamirim; Pau dos Ferros; São Gonçalo do Amarante; São José de Mipibú",
+        "tem": true
+      },
+      {
+        "nome": "Apodi",
+        "tem": true
+      },
+      {
+        "nome": "Açu",
+        "tem": true
+      },
+      {
+        "nome": "Caicó",
+        "tem": true
+      },
+      {
+        "nome": "Ceará-Mirim",
+        "tem": true
+      },
+      {
+        "nome": "Currais Novos",
+        "tem": true
+      },
+      {
+        "nome": "João Câmara",
+        "tem": true
+      },
+      {
+        "nome": "Macau",
+        "tem": true
+      },
+      {
+        "nome": "Macaíba",
+        "tem": true
+      },
+      {
+        "nome": "Mossoró",
+        "tem": true
+      },
+      {
+        "nome": "Natal",
+        "tem": true
+      },
+      {
+        "nome": "Nova Cruz",
+        "tem": true
+      },
+      {
+        "nome": "Parnamirim",
+        "tem": true
+      },
+      {
+        "nome": "Pau dos Ferros",
+        "tem": true
+      },
+      {
+        "nome": "São Gonçalo do Amarante",
+        "tem": true
+      },
+      {
+        "nome": "São José de Mipibú",
+        "tem": true
+      }
+    ],
+    "RIO GRANDE DO SUL": [
+      {
+        "nome": "Alegrete",
+        "tem": true
+      },
+      {
+        "nome": "Alegrete; Alvorada; Bagé; Bento Gonçalves; Cachoeira do Sul; Cachoeirinha; Canoas; Capão da Canoa; Carazinho; Caxias do Sul; Cruz Alta; Erechim; Frederico Westphalen; Giruá; Gravataí; Guaíba; Ijuí; Lajeado; Montenegro; Novo Hamburgo; Novo Prata; Osório; Palmares do Sul; Passo Fundo; Pelotas; Porto Alegre; Quaraí; Rio Grande; Rio Pardo; Santa Cruz do Sul; Santa Maria; Santa Rosa; Santana do Livramento; Santo Ângelo; Sapiranga; Sapucaia do Sul; Sarandi; São Gabriel; São Leopoldo; Torres; Tramandaí; Uruguaiana; Vacaria; Venâncio Aires; Viamão",
+        "tem": true
+      },
+      {
+        "nome": "Alvorada",
+        "tem": true
+      },
+      {
+        "nome": "Bagé",
+        "tem": true
+      },
+      {
+        "nome": "Bento Gonçalves",
+        "tem": true
+      },
+      {
+        "nome": "Cachoeira do Sul",
+        "tem": true
+      },
+      {
+        "nome": "Cachoeirinha",
+        "tem": true
+      },
+      {
+        "nome": "Canoas",
+        "tem": true
+      },
+      {
+        "nome": "Capão da Canoa",
+        "tem": true
+      },
+      {
+        "nome": "Carazinho",
+        "tem": true
+      },
+      {
+        "nome": "Caxias do Sul",
+        "tem": true
+      },
+      {
+        "nome": "Cruz Alta",
+        "tem": true
+      },
+      {
+        "nome": "Erechim",
+        "tem": true
+      },
+      {
+        "nome": "Frederico Westphalen",
+        "tem": true
+      },
+      {
+        "nome": "Giruá",
+        "tem": true
+      },
+      {
+        "nome": "Gravataí",
+        "tem": true
+      },
+      {
+        "nome": "Guaíba",
+        "tem": true
+      },
+      {
+        "nome": "Ijuí",
+        "tem": true
+      },
+      {
+        "nome": "Lajeado",
+        "tem": true
+      },
+      {
+        "nome": "Montenegro",
+        "tem": true
+      },
+      {
+        "nome": "Novo Hamburgo",
+        "tem": true
+      },
+      {
+        "nome": "Novo Prata",
+        "tem": true
+      },
+      {
+        "nome": "Osório",
+        "tem": true
+      },
+      {
+        "nome": "Palmares do Sul",
+        "tem": true
+      },
+      {
+        "nome": "Passo Fundo",
+        "tem": true
+      },
+      {
+        "nome": "Pelotas",
+        "tem": true
+      },
+      {
+        "nome": "Porto Alegre",
+        "tem": true
+      },
+      {
+        "nome": "Quaraí",
+        "tem": true
+      },
+      {
+        "nome": "Rio Grande",
+        "tem": true
+      },
+      {
+        "nome": "Rio Pardo",
+        "tem": true
+      },
+      {
+        "nome": "Santa Cruz do Sul",
+        "tem": true
+      },
+      {
+        "nome": "Santa Maria",
+        "tem": true
+      },
+      {
+        "nome": "Santa Rosa",
+        "tem": true
+      },
+      {
+        "nome": "Santana do Livramento",
+        "tem": true
+      },
+      {
+        "nome": "Santo Ângelo",
+        "tem": true
+      },
+      {
+        "nome": "Sapiranga",
+        "tem": true
+      },
+      {
+        "nome": "Sapucaia do Sul",
+        "tem": true
+      },
+      {
+        "nome": "Sarandi",
+        "tem": true
+      },
+      {
+        "nome": "São Gabriel",
+        "tem": true
+      },
+      {
+        "nome": "São Leopoldo",
+        "tem": true
+      },
+      {
+        "nome": "Torres",
+        "tem": true
+      },
+      {
+        "nome": "Tramandaí",
+        "tem": true
+      },
+      {
+        "nome": "Uruguaiana",
+        "tem": true
+      },
+      {
+        "nome": "Vacaria",
+        "tem": true
+      },
+      {
+        "nome": "Venâncio Aires",
+        "tem": true
+      },
+      {
+        "nome": "Viamão",
+        "tem": true
+      }
+    ],
+    "RONDÔNIA": [
+      {
+        "nome": "Ariquemes",
+        "tem": true
+      },
+      {
+        "nome": "Ariquemes; Cacoal; Colorado do Oeste; Espigão do Oeste; Guajará-Mirim; Jaru; Ji-Paraná; Ouro Preto do Oeste; Pimenta Bueno; Porto Velho; Rolim de Moura; Vilhena",
+        "tem": true
+      },
+      {
+        "nome": "Cacoal",
+        "tem": true
+      },
+      {
+        "nome": "Colorado do Oeste",
+        "tem": true
+      },
+      {
+        "nome": "Espigão do Oeste",
+        "tem": true
+      },
+      {
+        "nome": "Guajará-Mirim",
+        "tem": true
+      },
+      {
+        "nome": "Jaru",
+        "tem": true
+      },
+      {
+        "nome": "Ji-Paraná",
+        "tem": true
+      },
+      {
+        "nome": "Ouro Preto do Oeste",
+        "tem": true
+      },
+      {
+        "nome": "Pimenta Bueno",
+        "tem": true
+      },
+      {
+        "nome": "Porto Velho",
+        "tem": true
+      },
+      {
+        "nome": "Rolim de Moura",
+        "tem": true
+      },
+      {
+        "nome": "Vilhena",
+        "tem": true
+      }
+    ],
+    "RORAIMA": [
+      {
+        "nome": "Boa Vista",
+        "tem": true
+      },
+      {
+        "nome": "Boa Vista; Bonfim; Caracaraí; Mucajaí; Pacaraima; Rorainópolis; São Luiz",
+        "tem": true
+      },
+      {
+        "nome": "Bonfim",
+        "tem": true
+      },
+      {
+        "nome": "Caracaraí",
+        "tem": true
+      },
+      {
+        "nome": "Mucajaí",
+        "tem": true
+      },
+      {
+        "nome": "Pacaraima",
+        "tem": true
+      },
+      {
+        "nome": "Rorainópolis",
+        "tem": true
+      },
+      {
+        "nome": "São Luiz",
+        "tem": true
+      }
+    ],
+    "SANTA CATARINA": [
+      {
+        "nome": "Araranguá",
+        "tem": true
+      },
+      {
+        "nome": "Araranguá; Balneário Camboriú; Biguaçu; Blumenau; Camboriú; Canoinhas; Caçador; Chapecó; Concórdia; Criciúma; Florianópolis; Gaspar; Itajaí; Ituporanga; Jaraguá do Sul; Joaçaba; Joinville; Lages; Laguna; Mafra; Navegantes; Palhoça; São Bento do Sul; São Francisco do Sul; São José; Tubarão; Videira; Xanxerê",
+        "tem": true
+      },
+      {
+        "nome": "Balneário Camboriú",
+        "tem": true
+      },
+      {
+        "nome": "Biguaçu",
+        "tem": true
+      },
+      {
+        "nome": "Blumenau",
+        "tem": true
+      },
+      {
+        "nome": "Camboriú",
+        "tem": true
+      },
+      {
+        "nome": "Canoinhas",
+        "tem": true
+      },
+      {
+        "nome": "Caçador",
+        "tem": true
+      },
+      {
+        "nome": "Chapecó",
+        "tem": true
+      },
+      {
+        "nome": "Concórdia",
+        "tem": true
+      },
+      {
+        "nome": "Criciúma",
+        "tem": true
+      },
+      {
+        "nome": "Florianópolis",
+        "tem": true
+      },
+      {
+        "nome": "Gaspar",
+        "tem": true
+      },
+      {
+        "nome": "Itajaí",
+        "tem": true
+      },
+      {
+        "nome": "Ituporanga",
+        "tem": true
+      },
+      {
+        "nome": "Jaraguá do Sul",
+        "tem": true
+      },
+      {
+        "nome": "Joaçaba",
+        "tem": true
+      },
+      {
+        "nome": "Joinville",
+        "tem": true
+      },
+      {
+        "nome": "Lages",
+        "tem": true
+      },
+      {
+        "nome": "Laguna",
+        "tem": true
+      },
+      {
+        "nome": "Mafra",
+        "tem": true
+      },
+      {
+        "nome": "Navegantes",
+        "tem": true
+      },
+      {
+        "nome": "Palhoça",
+        "tem": true
+      },
+      {
+        "nome": "São Bento do Sul",
+        "tem": true
+      },
+      {
+        "nome": "São Francisco do Sul",
+        "tem": true
+      },
+      {
+        "nome": "São José",
+        "tem": true
+      },
+      {
+        "nome": "Tubarão",
+        "tem": true
+      },
+      {
+        "nome": "Videira",
+        "tem": true
+      },
+      {
+        "nome": "Xanxerê",
+        "tem": true
+      }
+    ],
+    "SÃO PAULO": [
+      {
+        "nome": "Araraquara",
+        "tem": true
+      },
+      {
+        "nome": "Araraquara; Araçatuba; Atibaia; Avaré; Barretos; Bauru; Bragança Paulista; Brasília; Campinas; Caraguatatuba; Carapicuíba; Diadema; Ferraz de Vasconcelos; Franca; Francisco Morato; Franco da Rocha; Guarujá; Guarulhos; Itanhaém; Itapecerica da Serra; Itapetininga; Itapevi; Itaquaquecetuba; Jacareí; Jaú; Jundiaí; Limeira; Marília; Mauá; Mogi das Cruzes; Osasco; Piracicaba; Praia Grande; Presidente Prudente; Registro; Ribeirão Preto; Rio Claro; Santo André; Santos; Sorocaba; Suzano; São Bernardo do Campo; São Carlos; São José do Rio Preto; São José dos Campos; São Paulo; São Sebastião; São Vicente; Taboão da Serra; Taubaté; Tupã",
+        "tem": true
+      },
+      {
+        "nome": "Araçatuba",
+        "tem": true
+      },
+      {
+        "nome": "Atibaia",
+        "tem": true
+      },
+      {
+        "nome": "Avaré",
+        "tem": true
+      },
+      {
+        "nome": "Barretos",
+        "tem": true
+      },
+      {
+        "nome": "Bauru",
+        "tem": true
+      },
+      {
+        "nome": "Bragança Paulista",
+        "tem": true
+      },
+      {
+        "nome": "Brasília",
+        "tem": true
+      },
+      {
+        "nome": "Campinas",
+        "tem": true
+      },
+      {
+        "nome": "Caraguatatuba",
+        "tem": true
+      },
+      {
+        "nome": "Carapicuíba",
+        "tem": true
+      },
+      {
+        "nome": "Diadema",
+        "tem": true
+      },
+      {
+        "nome": "Ferraz de Vasconcelos",
+        "tem": true
+      },
+      {
+        "nome": "Franca",
+        "tem": true
+      },
+      {
+        "nome": "Francisco Morato",
+        "tem": true
+      },
+      {
+        "nome": "Franco da Rocha",
+        "tem": true
+      },
+      {
+        "nome": "Guarujá",
+        "tem": true
+      },
+      {
+        "nome": "Guarulhos",
+        "tem": true
+      },
+      {
+        "nome": "Itanhaém",
+        "tem": true
+      },
+      {
+        "nome": "Itapecerica da Serra",
+        "tem": true
+      },
+      {
+        "nome": "Itapetininga",
+        "tem": true
+      },
+      {
+        "nome": "Itapevi",
+        "tem": true
+      },
+      {
+        "nome": "Itaquaquecetuba",
+        "tem": true
+      },
+      {
+        "nome": "Jacareí",
+        "tem": true
+      },
+      {
+        "nome": "Jaú",
+        "tem": true
+      },
+      {
+        "nome": "Jundiaí",
+        "tem": true
+      },
+      {
+        "nome": "Limeira",
+        "tem": true
+      },
+      {
+        "nome": "Marília",
+        "tem": true
+      },
+      {
+        "nome": "Mauá",
+        "tem": true
+      },
+      {
+        "nome": "Mogi das Cruzes",
+        "tem": true
+      },
+      {
+        "nome": "Osasco",
+        "tem": true
+      },
+      {
+        "nome": "Piracicaba",
+        "tem": true
+      },
+      {
+        "nome": "Praia Grande",
+        "tem": true
+      },
+      {
+        "nome": "Presidente Prudente",
+        "tem": true
+      },
+      {
+        "nome": "Registro",
+        "tem": true
+      },
+      {
+        "nome": "Ribeirão Preto",
+        "tem": true
+      },
+      {
+        "nome": "Rio Claro",
+        "tem": true
+      },
+      {
+        "nome": "Santo André",
+        "tem": true
+      },
+      {
+        "nome": "Santos",
+        "tem": true
+      },
+      {
+        "nome": "Sorocaba",
+        "tem": true
+      },
+      {
+        "nome": "Suzano",
+        "tem": true
+      },
+      {
+        "nome": "São Bernardo do Campo",
+        "tem": true
+      },
+      {
+        "nome": "São Carlos",
+        "tem": true
+      },
+      {
+        "nome": "São José do Rio Preto",
+        "tem": true
+      },
+      {
+        "nome": "São José dos Campos",
+        "tem": true
+      },
+      {
+        "nome": "São Paulo",
+        "tem": true
+      },
+      {
+        "nome": "São Sebastião",
+        "tem": true
+      },
+      {
+        "nome": "São Vicente",
+        "tem": true
+      },
+      {
+        "nome": "Taboão da Serra",
+        "tem": true
+      },
+      {
+        "nome": "Taubaté",
+        "tem": true
+      },
+      {
+        "nome": "Tupã",
+        "tem": true
+      }
+    ],
+    "SERGIPE": [
+      {
+        "nome": "Aracaju",
+        "tem": true
+      },
+      {
+        "nome": "Aracaju; Barra dos Coqueiros; Estância; Itabaiana; Itabaianinha; Lagarto; Nossa Senhora das Dores; Nossa Senhora do Socorro; Poço Redondo; Propriá; Simão Dias; São Cristóvão; Tobias Barreto",
+        "tem": true
+      },
+      {
+        "nome": "Barra dos Coqueiros",
+        "tem": true
+      },
+      {
+        "nome": "Estância",
+        "tem": true
+      },
+      {
+        "nome": "Itabaiana",
+        "tem": true
+      },
+      {
+        "nome": "Itabaianinha",
+        "tem": true
+      },
+      {
+        "nome": "Lagarto",
+        "tem": true
+      },
+      {
+        "nome": "Nossa Senhora das Dores",
+        "tem": true
+      },
+      {
+        "nome": "Nossa Senhora do Socorro",
+        "tem": true
+      },
+      {
+        "nome": "Poço Redondo",
+        "tem": true
+      },
+      {
+        "nome": "Propriá",
+        "tem": true
+      },
+      {
+        "nome": "Simão Dias",
+        "tem": true
+      },
+      {
+        "nome": "São Cristóvão",
+        "tem": true
+      },
+      {
+        "nome": "Tobias Barreto",
+        "tem": true
+      }
+    ],
+    "TOCANTINS": [
+      {
+        "nome": "Araguaína",
+        "tem": true
+      },
+      {
+        "nome": "Araguaína; Arraias; Colinas do Tocantins; Dianópolis; Formoso do Araguaia; Guaraí; Gurupi; Miracema do Tocantins; Palmas; Paraíso do Tocantins; Porto Nacional; Tocantinópolis",
+        "tem": true
+      },
+      {
+        "nome": "Arraias",
+        "tem": true
+      },
+      {
+        "nome": "Colinas do Tocantins",
+        "tem": true
+      },
+      {
+        "nome": "Dianópolis",
+        "tem": true
+      },
+      {
+        "nome": "Formoso do Araguaia",
+        "tem": true
+      },
+      {
+        "nome": "Guaraí",
+        "tem": true
+      },
+      {
+        "nome": "Gurupi",
+        "tem": true
+      },
+      {
+        "nome": "Miracema do Tocantins",
+        "tem": true
+      },
+      {
+        "nome": "Palmas",
+        "tem": true
+      },
+      {
+        "nome": "Paraíso do Tocantins",
+        "tem": true
+      },
+      {
+        "nome": "Porto Nacional",
+        "tem": true
+      },
+      {
+        "nome": "Tocantinópolis",
+        "tem": true
       }
     ]
   },
