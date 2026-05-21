@@ -343,7 +343,7 @@ header::after {
   margin-bottom:10px;
 }
 .copy-label { font-size:0.66rem;text-transform:uppercase;letter-spacing:0.1em;color:var(--cinza-sub);font-weight:700;margin-bottom:6px; }
-.copy-text { font-size:0.78rem;line-height:1.6;color:var(--cinza-texto); }
+.copy-text { font-size:0.78rem;line-height:1.6;color:var(--cinza-texto);text-align:justify; }
 .btn-copy {
   display:inline-flex;align-items:center;gap:6px;
   margin-top:8px;
@@ -705,8 +705,7 @@ footer .footer-dev span {
 }
 .btn-export-json:hover { background: var(--cinza-borda); }
 
-/* ─── SUGESTAO via EmailJS ─── */
-.sug-char-count { font-size: 0.7rem; color: var(--cinza-sub); text-align: right; margin-top: 2px; }
+
 
 </style>
 </head>
@@ -984,23 +983,32 @@ let NOMEACAO_CUSTOM = {};
 
 async function carregarDados() {
   try {
-    const r = await fetch(DATA_URL);
+    const r = await fetch(DATA_URL + '?v=' + Date.now()); // cache-bust
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const d = await r.json();
-    SUCUMBENCIA = d.sucumbencia || {};
-    COMARCAS = d.comarcas || {};
+    SUCUMBENCIA    = d.sucumbencia    || {};
+    COMARCAS       = d.comarcas       || {};
     NOMEACAO_PADRAO = d.nomeacao_padrao || '';
     NOMEACAO_CUSTOM = d.nomeacao_custom || {};
-    // Merge any localStorage overrides (admin edits done locally)
+
+    // localStorage só sobrescreve estado a estado (não substitui o objeto inteiro)
     const suc_ov = localStorage.getItem('dp_sucumbencia_override');
     if (suc_ov) { try { Object.assign(SUCUMBENCIA, JSON.parse(suc_ov)); } catch(e){} }
+
     const com_ov = localStorage.getItem('dp_comarcas');
-    if (com_ov) { try { COMARCAS = JSON.parse(com_ov); } catch(e){} }
+    if (com_ov) {
+      try {
+        const local = JSON.parse(com_ov);
+        // Merge: localStorage prevalece por estado, mas não apaga estados do JSON
+        Object.keys(local).forEach(k => { COMARCAS[k] = local[k]; });
+      } catch(e){}
+    }
+
     const nom_ov = localStorage.getItem('dp_nomeacao');
     if (nom_ov) { try { Object.assign(NOMEACAO_CUSTOM, JSON.parse(nom_ov)); } catch(e){} }
+
   } catch(err) {
     console.warn('Falha ao carregar data.json remoto, usando dados locais:', err.message);
-    // Fallback: use localStorage or empty
     const suc_ov = localStorage.getItem('dp_sucumbencia_override');
     if (suc_ov) { try { SUCUMBENCIA = JSON.parse(suc_ov); } catch(e){} }
     const com_ov = localStorage.getItem('dp_comarcas');
@@ -1475,128 +1483,34 @@ init();
 
 <!-- ─── MODAL SUGESTÃO ─── -->
 <div class="modal-overlay" id="sugestao-overlay">
-  <div class="sugestao-modal">
+  <div class="sugestao-modal" style="text-align:center;">
     <button class="btn-close-modal" onclick="fecharSugestao()">×</button>
-    <h2>💬 Enviar Sugestão</h2>
-    <p class="sub">Sua sugestão será enviada diretamente ao desenvolvedor do sistema.<br>Contribuições são bem-vindas!</p>
-
-    <div id="sugestao-form-area" class="sugestao-form">
-      <div class="form-group">
-        <label>Seu nome (opcional)</label>
-        <input type="text" id="sug-nome" placeholder="Ex.: Maria da Silva"/>
-      </div>
-      <div class="form-group">
-        <label>Tipo de sugestão</label>
-        <select id="sug-tipo">
-          <option value="melhoria">Sugestão de melhoria</option>
-          <option value="correcao">Correção de dado</option>
-          <option value="comarca">Nova comarca / atualização</option>
-          <option value="sucumbencia">Atualização de dados bancários</option>
-          <option value="outro">Outro</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label>Mensagem <span style="color:#c85555">*</span></label>
-        <textarea id="sug-texto" placeholder="Descreva sua sugestão…" maxlength="300" oninput="atualizarContador()"></textarea>
-        <div class="sug-char-count"><span id="sug-char-count">0</span>/300 caracteres</div>
-      </div>
-      <div class="sugestao-actions">
-        <button class="btn-cancel" onclick="fecharSugestao()">Cancelar</button>
-        <button class="btn-enviar" id="btn-enviar-sug" onclick="enviarSugestao()">
-          📨 Enviar sugestão
-        </button>
-      </div>
-      <p style="font-size:0.7rem;color:var(--cinza-sub);margin-top:12px;text-align:center;line-height:1.5;">
-        A sugestão será enviada para <strong>gustavofreitasds@gmail.com</strong>
-      </p>
-    </div>
-
-    <div class="sugestao-success" id="sugestao-success">
-      <div class="check-icon">✅</div>
-      <h3>Sugestão preparada!</h3>
-      <p>Seu cliente de e-mail foi aberto com a mensagem pré-preenchida.<br>
-      Obrigado pela contribuição!</p>
-      <button class="btn-save" style="margin-top:16px;width:100%" onclick="fecharSugestao()">Fechar</button>
+    <div style="font-size:2.2rem;margin-bottom:12px;">💬</div>
+    <h2 style="margin-bottom:8px;">Enviar Sugestão</h2>
+    <p class="sub">Contribuições são bem-vindas! Entre em contato pelo e-mail institucional:</p>
+    <a href="mailto:gustavo.souza@defensoria.df.gov.br"
+       style="display:inline-block;margin:14px 0 20px;font-size:0.92rem;font-weight:700;
+              color:var(--verde-escuro);word-break:break-all;text-decoration:none;
+              background:var(--verde-bg);border:1px solid var(--cinza-borda);
+              border-radius:10px;padding:10px 18px;">
+      gustavo.souza@defensoria.df.gov.br
+    </a>
+    <div>
+      <button class="btn-cancel" onclick="fecharSugestao()" style="width:100%;">Fechar</button>
     </div>
   </div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
-// ─── EMAILJS ───
-const EJS_PUBLIC_KEY  = 'SEU_PUBLIC_KEY';
-const EJS_SERVICE_ID  = 'SEU_SERVICE_ID';
-const EJS_TEMPLATE_ID = 'SEU_TEMPLATE_ID';
-let ejsIniciado = false;
-function initEmailJS() {
-  if (ejsIniciado || EJS_PUBLIC_KEY === 'SEU_PUBLIC_KEY') return;
-  try { emailjs.init(EJS_PUBLIC_KEY); ejsIniciado = true; } catch(e) {}
-}
-
 // ─── SUGESTÃO ───
 function abrirSugestao() {
-  document.getElementById('sug-nome').value = '';
-  document.getElementById('sug-tipo').value = 'melhoria';
-  document.getElementById('sug-texto').value = '';
-  document.getElementById('sug-char-count').textContent = '0';
-  document.getElementById('sugestao-form-area').style.display = 'block';
-  document.getElementById('sugestao-success').style.display = 'none';
   document.getElementById('sugestao-overlay').classList.add('open');
-  initEmailJS();
 }
 function fecharSugestao() {
   document.getElementById('sugestao-overlay').classList.remove('open');
 }
-function atualizarContador() {
-  const txt = document.getElementById('sug-texto').value;
-  document.getElementById('sug-char-count').textContent = txt.length;
-}
-async function enviarSugestao() {
-  const texto = document.getElementById('sug-texto').value.trim();
-  if (!texto) {
-    const ta = document.getElementById('sug-texto');
-    ta.focus(); ta.style.borderColor = '#c85555';
-    setTimeout(() => { ta.style.borderColor = ''; }, 1800);
-    return;
-  }
-  const nome      = document.getElementById('sug-nome').value.trim() || 'Usuário anônimo';
-  const tipoEl    = document.getElementById('sug-tipo');
-  const tipoTexto = tipoEl.options[tipoEl.selectedIndex].text;
-  const estadoStr = (typeof currentEstado !== 'undefined' && currentEstado) ? currentEstado : '—';
-  const btn = document.getElementById('btn-enviar-sug');
 
-  if (ejsIniciado) {
-    btn.disabled = true; btn.textContent = 'Enviando…';
-    try {
-      await emailjs.send(EJS_SERVICE_ID, EJS_TEMPLATE_ID, {
-        from_name: nome, tipo: tipoTexto, estado: estadoStr,
-        mensagem: texto, to_email: 'gustavofreitasds@gmail.com'
-      });
-      document.getElementById('sugestao-form-area').style.display = 'none';
-      document.getElementById('sugestao-success').style.display   = 'block';
-      document.getElementById('sugestao-success').querySelector('h3').textContent = 'Sugestão enviada!';
-      document.getElementById('sugestao-success').querySelector('p').textContent  = 'Obrigado! Sua mensagem foi enviada para gustavofreitasds@gmail.com.';
-      btn.disabled = false; btn.innerHTML = '📨 Enviar sugestão';
-      return;
-    } catch(err) {
-      btn.disabled = false; btn.innerHTML = '📨 Enviar sugestão';
-    }
-  }
-
-  // Fallback mailto — usando <a> para evitar bug de abrir último arquivo
-  const assunto = encodeURIComponent('[MAPA DPDF] ' + tipoTexto + ' | ' + estadoStr);
-  const corpo = encodeURIComponent('Tipo: ' + tipoTexto + '\nDe: ' + nome + '\nEstado: ' + estadoStr + '\n\n--- Mensagem ---\n' + texto + '\n\n---\nEnviado via Mapa Interativo DPDF');
-  const link = document.createElement('a');
-  link.href = 'mailto:gustavofreitasds@gmail.com?subject=' + assunto + '&body=' + corpo;
-  link.style.display = 'none';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  document.getElementById('sugestao-form-area').style.display = 'none';
-  document.getElementById('sugestao-success').style.display   = 'block';
-}
-
-// ─── DÚVIDAS ───
+// // ─── DÚVIDAS ───
 function abrirDuvidas() {
   document.getElementById('duvidas-overlay').classList.add('open');
 }
