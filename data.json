@@ -9,12 +9,12 @@
       "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Acre, mediante depósito no Fundo Orçamentário da Defensoria Pública do Estado do Acre, Banco do Brasil (001), Agência 3550-5, Conta Corrente 7.735-6."
     },
     "ALAGOAS": {
-      "fundo": "Fundo de Aparelhamento da Defensoria Pública do Estado de Alagoas — FADEP/AL",
+      "fundo": "Fundo de Modernização da Defensoria Pública do Estado de Alagoas — FUNDEPAL/AL",
       "cnpj": "",
-      "banco": "Banco do Brasil (001)",
-      "agencia": "3220-4",
-      "conta": "10.320-2",
-      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado de Alagoas, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado de Alagoas — FADEP/AL, Banco do Brasil (001), Agência 3220-4, Conta Corrente 10.320-2."
+      "banco": "Caixa Econômica Federal (104)",
+      "agencia": "2735",
+      "conta": "574184775-3",
+      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado de Alagoas, mediante depósito no Fundo de Modernização da Defensoria Pública do Estado de Alagoas — FUNDEPAL/AL, Caixa Econômica Federal (104), Agência 2735, Conta Corrente 10.320-2."
     },
     "AMAPÁ": {
       "fundo": "Fundo Especial da Defensoria Pública do Amapá — FEDP",
@@ -52,16 +52,16 @@
       "fundo": "Fundo de Aparelhamento da Defensoria Pública do Distrito Federal — PRODEF",
       "cnpj": "09.396.049/0001-80",
       "banco": "Banco de Brasília S.A. — BRB (070)",
-      "agencia": "0100",
+      "agencia": "100",
       "conta": "013251-7",
-      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Distrito Federal, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Distrito Federal — PRODEF, CNPJ 09.396.049/0001-80, Banco de Brasília S.A. — BRB (070), Agência 0100, Conta Corrente 013251-7."
+      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Distrito Federal, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Distrito Federal — PRODEF, CNPJ 09.396.049/0001-80, Banco de Brasília S.A. — BRB (070), Agência 0100, Conta Corrente 013251-7."
     },
     "ESPÍRITO SANTO": {
       "fundo": "Fundo de Aparelhamento da Defensoria Pública do Estado do Espírito Santo",
       "cnpj": "19.690.110/0001-50",
       "banco": "Banestes — Banco do Estado do Espírito Santo",
       "agencia": "104",
-      "conta": "25.005.497",
+      "conta": "25005497",
       "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Espírito Santo, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado do Espírito Santo, CNPJ 19.690.110/0001-50, Banestes — Banco do Estado do Espírito Santo, Agência 104, Conta Corrente 25.005.497."
     },
     "GOIÁS": {
@@ -77,7 +77,7 @@
       "cnpj": "",
       "banco": "Banco do Brasil (001)",
       "agencia": "3846-6",
-      "conta": "8027-6",
+      "conta": "8027-06-01 00:00:00",
       "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Maranhão, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado do Maranhão, Banco do Brasil (001), Agência 3846-6, Conta Corrente 8027-6."
     },
     "MATO GROSSO": {
@@ -94,7 +94,7 @@
       "banco": "Banco do Brasil (001)",
       "agencia": "2576-3",
       "conta": "116778-2",
-      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado de Mato Grosso do Sul, mediante depósito no Fundo Especial para o Aperfeiçoamento e o Desenvolvimento das Atividades da Defensoria Pública — FUNADEP, Banco do Brasil (001), Agência 2576-3, Conta Corrente 116778-2."
+      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado de Mato Grosso Do Sul, mediante depósito no Fundo Especial para o Aperfeiçoamento e o Desenvolvimento das Atividades da Defensoria Pública — FUNADEP, Banco do Brasil (001), Agência 2576-3, Conta Corrente 116778-2."
     },
     "MINAS GERAIS": {
       "fundo": "Fundo da Defensoria Pública do Estado de Minas Gerais",
@@ -137,12 +137,12 @@
       "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado de Pernambuco, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado de Pernambuco — FUNADEP/PE, Banco do Brasil (001), Agência 3234-4, Conta Corrente 10.220-2."
     },
     "PIAUÍ": {
-      "fundo": "Fundo de Aparelhamento da Defensoria Pública do Estado do Piauí",
+      "fundo": "Fundo de Modernização da Defensoria Pública do Estado do Piauí",
       "cnpj": "",
       "banco": "Banco do Brasil (001)",
       "agencia": "3791-5",
-      "conta": "9873-6",
-      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Piauí, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado do Piauí, Banco do Brasil (001), Agência 3791-5, Conta Corrente 9873-6."
+      "conta": "9873-06-01 00:00:00",
+      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Piauí, mediante depósito no Fundo de Modernização da Defensoria Pública do Estado do Piauí, Banco do Brasil (001), Agência 3791-5, Conta Corrente 9873-6."
     },
     "RIO DE JANEIRO": {
       "fundo": "Fundo de Aparelhamento da Defensoria Pública do Estado do Rio de Janeiro",
@@ -150,31 +150,31 @@
       "banco": "Banco do Brasil (001)",
       "agencia": "3832-6",
       "conta": "292.014-X",
-      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Rio de Janeiro, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado do Rio de Janeiro, Banco do Brasil (001), Agência 3832-6, Conta Corrente 292.014-X."
+      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Rio De Janeiro, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado do Rio de Janeiro, Banco do Brasil (001), Agência 3832-6, Conta Corrente 292.014-X."
     },
     "RIO GRANDE DO NORTE": {
-      "fundo": "Fundo de Modernização e Aparelhamento da Defensoria Pública do Estado do Rio Grande do Norte",
+      "fundo": "Fundo de Manutenção e Aparelhamento da Defensoria Pública do Estado do Rio Grande do Norte",
       "cnpj": "",
       "banco": "Banco do Brasil (001)",
       "agencia": "3795-8",
-      "conta": "8779-3",
-      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Rio Grande do Norte, mediante depósito no Fundo de Modernização e Aparelhamento da Defensoria Pública do Estado do Rio Grande do Norte, Banco do Brasil (001), Agência 3795-8, Conta Corrente 8779-3."
+      "conta": "8779-03-01 00:00:00",
+      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Rio Grande Do Norte, mediante depósito no Fundo de Manutenção e Aparelhamento da Defensoria Pública do Estado do Rio Grande do Norte, Banco do Brasil (001), Agência 3795-8, Conta Corrente 8779-3."
     },
     "RIO GRANDE DO SUL": {
       "fundo": "Fundo de Aparelhamento da Defensoria Pública do Estado do Rio Grande do Sul — FADEP",
       "cnpj": "74.704.636/0002-31",
       "banco": "Banrisul — Banco do Estado do RS (041)",
-      "agencia": "0220",
+      "agencia": "220",
       "conta": "06.234942.0-0",
-      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Rio Grande do Sul, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado do Rio Grande do Sul — FADEP, CNPJ 74.704.636/0002-31, Banrisul — Banco do Estado do RS (041), Agência 0220, Conta Corrente 06.234942.0-0."
+      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado do Rio Grande Do Sul, mediante depósito no Fundo de Aparelhamento da Defensoria Pública do Estado do Rio Grande do Sul — FADEP, CNPJ 74.704.636/0002-31, Banrisul — Banco do Estado do RS (041), Agência 0220, Conta Corrente 06.234942.0-0."
     },
     "RONDÔNIA": {
-      "fundo": "Fundo da Defensoria Pública do Estado de Rondônia — FUNDEP",
+      "fundo": "Fundo Especial da Defensoria Pública do Estado de Rondônia",
       "cnpj": "06.188.804/0001-42",
-      "banco": "Caixa Econômica Federal (104)",
+      "banco": "Caixa Econômica Federal",
       "agencia": "632",
       "conta": "71278-2 (Op. 006)",
-      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado de Rondônia, mediante depósito no Fundo da Defensoria Pública do Estado de Rondônia — FUNDEP, CNPJ 06.188.804/0001-42, Caixa Econômica Federal (104), Agência 632, Conta Corrente 71278-2 Op.006."
+      "pedido": "a condenação da(s) parte(s) ré(s) ao pagamento das custas processuais e honorários advocatícios sucumbenciais, nos termos do art. 85 do CPC e do art. 4º, XXI, da Lei Complementar nº 80/1994, a serem revertidos em favor da Defensoria Pública do Estado de Rondônia, mediante depósito no Fundo Especial da Defensoria Pública do Estado de Rondônia, Banco do Brasil (001), Agência 632, Conta Corrente 71278-2 Op.006"
     },
     "RORAIMA": {
       "fundo": "Fundo Especial da Defensoria Pública do Estado de Roraima",
@@ -2381,10 +2381,6 @@
       },
       {
         "nome": "Bragança Paulista",
-        "tem": true
-      },
-      {
-        "nome": "Brasília",
         "tem": true
       },
       {
