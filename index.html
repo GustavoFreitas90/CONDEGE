@@ -615,6 +615,99 @@ footer .footer-dev span {
 }
 .sugestao-success p { font-size: 0.82rem; color: var(--cinza-sub); line-height: 1.6; }
 
+/* ─── MODAL DÚVIDAS ─── */
+.duvidas-modal {
+  background: #fff;
+  border-radius: 20px;
+  padding: 32px 36px 28px;
+  max-width: 620px;
+  width: 93%;
+  box-shadow: 0 12px 60px rgba(0,0,0,0.25);
+  animation: modalIn .2s ease;
+  position: relative;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+.duvidas-modal h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  color: var(--verde-escuro);
+  margin-bottom: 4px;
+}
+.duvidas-modal p.sub {
+  font-size: 0.81rem;
+  color: var(--cinza-sub);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.duvida-item {
+  border: 1px solid var(--cinza-borda);
+  border-radius: 12px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.duvida-pergunta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 16px;
+  cursor: pointer;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--verde-escuro);
+  background: var(--verde-bg);
+  transition: background .15s;
+  gap: 10px;
+  user-select: none;
+}
+.duvida-pergunta:hover { background: #d8f0e4; }
+.duvida-chevron {
+  font-size: 0.7rem;
+  color: var(--verde-medio);
+  transition: transform .2s;
+  flex-shrink: 0;
+}
+.duvida-item.open .duvida-chevron { transform: rotate(180deg); }
+.duvida-resposta {
+  display: none;
+  padding: 12px 16px 14px;
+  font-size: 0.82rem;
+  color: var(--cinza-texto);
+  line-height: 1.7;
+  border-top: 1px solid var(--cinza-borda);
+  background: #fff;
+  text-align: justify;
+}
+.duvida-item.open .duvida-resposta { display: block; }
+.duvida-resposta strong { color: var(--verde-escuro); }
+.duvida-resposta a { color: var(--azul-link); }
+.duvida-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+.duvida-tag.tct { background: #e8f0ff; color: #3a5abf; }
+.duvida-tag.proc { background: #fff3dc; color: #b87820; }
+.duvida-tag.suc { background: #dcf5e8; color: #1a7040; }
+
+/* ─── EXPORTAR JSON ─── */
+.btn-export-json {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--cinza-leve); border: 1px solid var(--cinza-borda);
+  border-radius: 8px; color: var(--cinza-texto); font-size: 0.78rem;
+  font-family: 'Nunito', sans-serif; padding: 8px 14px; cursor: pointer;
+  transition: background .15s; margin-top: 8px; width: 100%;
+  justify-content: center;
+}
+.btn-export-json:hover { background: var(--cinza-borda); }
+
+/* ─── SUGESTAO via EmailJS ─── */
+.sug-char-count { font-size: 0.7rem; color: var(--cinza-sub); text-align: right; margin-top: 2px; }
+
 </style>
 </head>
 <body>
@@ -629,9 +722,7 @@ footer .footer-dev span {
     </div>
   </div>
   <div class="header-right">
-    <div class="badge-header">
-      <strong style="display:block;text-align:center">Subsecretaria de Mediação e Cultura de Paz</strong><span style="display:block;text-align:center;color:rgba(255,255,255,0.85);font-size:0.82rem;font-weight:700;letter-spacing:0.1em">SEMED</span>
-    </div>
+    <button class="btn-admin-header" onclick="abrirDuvidas()" style="background:rgba(255,255,255,0.13);border-color:rgba(255,255,255,0.28);">❓ Dúvidas</button>
     <button class="btn-admin-header" onclick="abrirLogin()">⚙ Backoffice</button>
   </div>
 </header>
@@ -750,6 +841,129 @@ footer .footer-dev span {
     <div class="modal-actions">
       <button class="btn-cancel" onclick="fecharAdmin()">Cancelar</button>
       <button class="btn-save" onclick="salvarAdmin()">💾 Salvar alterações</button>
+    </div>
+    <button class="btn-export-json" onclick="exportarJSON()">⬇ Exportar data.json (para atualizar GitHub)</button>
+  </div>
+</div>
+
+<!-- ─── MODAL DÚVIDAS ─── -->
+<div class="modal-overlay" id="duvidas-overlay">
+  <div class="duvidas-modal">
+    <button class="btn-close-modal" onclick="fecharDuvidas()">×</button>
+    <h2>❓ Central de Dúvidas</h2>
+    <p class="sub">Perguntas frequentes sobre o peticionamento integrado entre Defensorias Públicas, com base no <strong>Termo de Cooperação Técnica nº 01/2021 — CONDEGE</strong>.</p>
+
+    <div class="duvida-item" onclick="toggleDuvida(this)">
+      <div class="duvida-pergunta">
+        <span>O que é o peticionamento integrado e quando devo utilizá-lo?</span>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="duvida-tag tct">TCT</span>
+          <span class="duvida-chevron">▼</span>
+        </div>
+      </div>
+      <div class="duvida-resposta">
+        O peticionamento integrado é o procedimento pelo qual um Defensor Público de um Estado pratica um ato judicial (ajuizamento, defesa, protocolo) em nome de um assistido cujo processo tramita em <strong>outra Unidade da Federação</strong>. Deve ser utilizado quando o assistido não tem condições de se deslocar até o Estado onde corre o processo e não há atendimento remoto disponível pela Defensoria local, ou quando o assistido está excluído digitalmente.
+      </div>
+    </div>
+
+    <div class="duvida-item" onclick="toggleDuvida(this)">
+      <div class="duvida-pergunta">
+        <span>Quais atos posso praticar por meio deste sistema?</span>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="duvida-tag proc">Procedimento</span>
+          <span class="duvida-chevron">▼</span>
+        </div>
+      </div>
+      <div class="duvida-resposta">
+        Conforme a Cláusula Terceira do TCT 01/2021, a cooperação abrange: <strong>(a)</strong> atendimento e peticionamento de ações e defesas cujos processos tramitem em outro Estado; <strong>(b)</strong> realização de audiências em cartas precatórias oriundas de outro Estado, desde que a ação de origem seja patrocinada pela Defensoria; <strong>(c)</strong> intermediação do protocolo de peças elaboradas por Defensor de outro Estado.
+      </div>
+    </div>
+
+    <div class="duvida-item" onclick="toggleDuvida(this)">
+      <div class="duvida-pergunta">
+        <span>O que deve constar obrigatoriamente na petição protocolada em outro Estado?</span>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="duvida-tag proc">Procedimento</span>
+          <span class="duvida-chevron">▼</span>
+        </div>
+      </div>
+      <div class="duvida-resposta">
+        Pela <strong>Cláusula Décima Primeira</strong>, toda manifestação subscrita por Defensor de um Estado para protocolo em outra UF deve constar expressamente que <em>o subscritor realizará apenas aquele ato específico</em> e conter requerimento para que o juízo intime a Defensoria do Estado onde tramita o processo (ou entidade conveniada) para dar continuidade ao feito. Use o parágrafo-padrão disponível na aba <strong>"Nomeação"</strong> ao clicar em cada Estado no mapa.
+      </div>
+    </div>
+
+    <div class="duvida-item" onclick="toggleDuvida(this)">
+      <div class="duvida-pergunta">
+        <span>O que deve acompanhar a petição além do texto principal?</span>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="duvida-tag proc">Procedimento</span>
+          <span class="duvida-chevron">▼</span>
+        </div>
+      </div>
+      <div class="duvida-resposta">
+        Conforme a <strong>Cláusula Décima Oitava</strong>, a petição deve ser acompanhada de: nome do assistido e número do processo (se houver), com indicação de urgência quando necessário; telefones do assistido (celular, fixo, trabalho e recado) e aplicativos de mensagens; e-mail próprio ou de terceiro de contato; e-mail e telefone do Defensor que realizou o atendimento presencial. Quanto aos <strong>documentos</strong>, devem acompanhar: <strong>declaração de hipossuficiência</strong>, comprovante de residência atualizado, documentos de identidade (RG/CPF), CTPS (quando relevante), contracheques ou extratos bancários (em ações que envolvam renda), além de todos os documentos que fundamentam o pedido da inicial (contratos, notificações, laudos, fotos etc.). A regra é: tudo que for necessário para o protocolo sem nova diligência.
+      </div>
+    </div>
+
+    <div class="duvida-item" onclick="toggleDuvida(this)">
+      <div class="duvida-pergunta">
+        <span>Qual é o prazo para encaminhamento em processos físicos? E digitais?</span>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="duvida-tag proc">Procedimento</span>
+          <span class="duvida-chevron">▼</span>
+        </div>
+      </div>
+      <div class="duvida-resposta">
+        Para <strong>processos físicos</strong> (Cláusula Quinta): encaminhar a manifestação com no mínimo <strong>48 horas</strong> de antecedência do prazo fatal. Nos casos que envolvam <strong>pedido de prisão civil</strong>, o prazo mínimo é de <strong>24 horas</strong>. Se não for possível cumprir o prazo, enviar por meio digital e alertar por telefone a Defensoria solicitada sobre a urgência. Para <strong>processos digitais</strong> (Cláusula Sétima e Oitava), verificar preliminarmente se a Defensoria solicitada consegue efetuar a distribuição eletrônica na comarca competente.
+      </div>
+    </div>
+
+    <div class="duvida-item" onclick="toggleDuvida(this)">
+      <div class="duvida-pergunta">
+        <span>Quem fica responsável pelo acompanhamento do processo após o ajuizamento?</span>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="duvida-tag tct">TCT</span>
+          <span class="duvida-chevron">▼</span>
+        </div>
+      </div>
+      <div class="duvida-resposta">
+        Pela <strong>Cláusula Décima Segunda</strong>, após o ajuizamento ou protocolo da defesa, a elaboração e acompanhamento de todos os atos subsequentes — incluindo recursos e fase executiva — ficam a cargo da <strong>Defensoria com atribuição junto ao juízo onde tramita o processo</strong>. A Defensoria de origem (que atendeu) pode prestar informações sobre o andamento, mas não tem atribuição para definir estratégia processual (Cláusula Décima Quinta).
+      </div>
+    </div>
+
+    <div class="duvida-item" onclick="toggleDuvida(this)">
+      <div class="duvida-pergunta">
+        <span>A quem pertencem os honorários sucumbenciais fixados em outro Estado?</span>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="duvida-tag suc">Sucumbência</span>
+          <span class="duvida-chevron">▼</span>
+        </div>
+      </div>
+      <div class="duvida-resposta">
+        Pela <strong>Cláusula Vigésima Primeira</strong> do TCT 01/2021, os honorários sucumbenciais fixados em favor da Defensoria Pública pertencem à <strong>Instituição do Estado em que tramita o processo</strong>, que os levantará. Consulte os dados bancários de cada Estado na aba <strong>"Sucumbência"</strong> do mapa para incluir o parágrafo correto na petição.
+      </div>
+    </div>
+
+    <div class="duvida-item" onclick="toggleDuvida(this)">
+      <div class="duvida-pergunta">
+        <span>Há comarca sem Defensoria no Estado? O que fazer?</span>
+        <div style="display:flex;gap:6px;align-items:center">
+          <span class="duvida-tag tct">TCT</span>
+          <span class="duvida-chevron">▼</span>
+        </div>
+      </div>
+      <div class="duvida-resposta">
+        Sim — o TCT reconhece expressamente que nem todas as comarcas do País têm Defensoria instalada. Nesse caso, conforme a <strong>Cláusula Décima Primeira</strong>, o pedido de nomeação deve ser ampliado para incluir <em>outra entidade conveniada ou advogado dativo</em>. O parágrafo-padrão disponível neste sistema já contempla essa hipótese: <em>"Se inexistente, seja nomeada defesa dativa."</em> Verifique no mapa se a comarca de destino possui ou não Defensoria constituída.
+      </div>
+    </div>
+
+    <div style="margin-top:16px;padding:12px 14px;background:var(--verde-bg);border-radius:10px;font-size:0.78rem;color:var(--cinza-sub);line-height:1.6;">
+      📄 Base normativa: <strong>Termo de Cooperação Técnica nº 01/2021 — CONDEGE</strong> (assinado em 22/02/2021, vigência de 60 meses).
+      Para contato com a Defensoria solicitada, consulte o portal do CONDEGE em <a href="https://www.condege.org.br/portal/servicos/1027/peticionamento-integrado/" target="_blank" rel="noopener">condege.org.br</a>.
+    </div>
+
+    <div style="margin-top:12px;text-align:right;">
+      <button class="btn-cancel" onclick="fecharDuvidas()" style="width:auto;padding:9px 22px;">Fechar</button>
     </div>
   </div>
 </div>
@@ -1283,7 +1497,8 @@ init();
       </div>
       <div class="form-group">
         <label>Mensagem <span style="color:#c85555">*</span></label>
-        <textarea id="sug-texto" placeholder="Descreva sua sugestão com o máximo de detalhes possível…"></textarea>
+        <textarea id="sug-texto" placeholder="Descreva sua sugestão…" maxlength="300" oninput="atualizarContador()"></textarea>
+        <div class="sug-char-count"><span id="sug-char-count">0</span>/300 caracteres</div>
       </div>
       <div class="sugestao-actions">
         <button class="btn-cancel" onclick="fecharSugestao()">Cancelar</button>
@@ -1292,8 +1507,7 @@ init();
         </button>
       </div>
       <p style="font-size:0.7rem;color:var(--cinza-sub);margin-top:12px;text-align:center;line-height:1.5;">
-        Ao enviar, seu cliente de e-mail será aberto com a mensagem pré-preenchida<br>
-        destinada a <strong>gustavo.souza@defensoria.df.gov.br</strong>
+        A sugestão será enviada para <strong>gustavofreitasds@gmail.com</strong>
       </p>
     </div>
 
@@ -1307,57 +1521,108 @@ init();
   </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <script>
+// ─── EMAILJS ───
+const EJS_PUBLIC_KEY  = 'SEU_PUBLIC_KEY';
+const EJS_SERVICE_ID  = 'SEU_SERVICE_ID';
+const EJS_TEMPLATE_ID = 'SEU_TEMPLATE_ID';
+let ejsIniciado = false;
+function initEmailJS() {
+  if (ejsIniciado || EJS_PUBLIC_KEY === 'SEU_PUBLIC_KEY') return;
+  try { emailjs.init(EJS_PUBLIC_KEY); ejsIniciado = true; } catch(e) {}
+}
+
 // ─── SUGESTÃO ───
 function abrirSugestao() {
   document.getElementById('sug-nome').value = '';
   document.getElementById('sug-tipo').value = 'melhoria';
   document.getElementById('sug-texto').value = '';
+  document.getElementById('sug-char-count').textContent = '0';
   document.getElementById('sugestao-form-area').style.display = 'block';
   document.getElementById('sugestao-success').style.display = 'none';
   document.getElementById('sugestao-overlay').classList.add('open');
+  initEmailJS();
 }
 function fecharSugestao() {
   document.getElementById('sugestao-overlay').classList.remove('open');
 }
-function enviarSugestao() {
+function atualizarContador() {
+  const txt = document.getElementById('sug-texto').value;
+  document.getElementById('sug-char-count').textContent = txt.length;
+}
+async function enviarSugestao() {
   const texto = document.getElementById('sug-texto').value.trim();
   if (!texto) {
     const ta = document.getElementById('sug-texto');
-    ta.focus();
-    ta.style.borderColor = '#c85555';
+    ta.focus(); ta.style.borderColor = '#c85555';
     setTimeout(() => { ta.style.borderColor = ''; }, 1800);
     return;
   }
-  const nome = document.getElementById('sug-nome').value.trim() || 'Usuário anônimo';
-  const tipo = document.getElementById('sug-tipo');
-  const tipoTexto = tipo.options[tipo.selectedIndex].text;
-  const estadoStr = typeof currentEstado !== 'undefined' && currentEstado ? ' | Estado: ' + currentEstado : '';
+  const nome      = document.getElementById('sug-nome').value.trim() || 'Usuário anônimo';
+  const tipoEl    = document.getElementById('sug-tipo');
+  const tipoTexto = tipoEl.options[tipoEl.selectedIndex].text;
+  const estadoStr = (typeof currentEstado !== 'undefined' && currentEstado) ? currentEstado : '—';
+  const btn = document.getElementById('btn-enviar-sug');
 
-  const assunto = encodeURIComponent('[MAPA DPDF] ' + tipoTexto + estadoStr);
-  const corpo = encodeURIComponent(
-    'Olá, Gustavo!
+  if (ejsIniciado) {
+    btn.disabled = true; btn.textContent = 'Enviando…';
+    try {
+      await emailjs.send(EJS_SERVICE_ID, EJS_TEMPLATE_ID, {
+        from_name: nome, tipo: tipoTexto, estado: estadoStr,
+        mensagem: texto, to_email: 'gustavofreitasds@gmail.com'
+      });
+      document.getElementById('sugestao-form-area').style.display = 'none';
+      document.getElementById('sugestao-success').style.display   = 'block';
+      document.getElementById('sugestao-success').querySelector('h3').textContent = 'Sugestão enviada!';
+      document.getElementById('sugestao-success').querySelector('p').textContent  = 'Obrigado! Sua mensagem foi enviada para gustavofreitasds@gmail.com.';
+      btn.disabled = false; btn.innerHTML = '📨 Enviar sugestão';
+      return;
+    } catch(err) {
+      btn.disabled = false; btn.innerHTML = '📨 Enviar sugestão';
+    }
+  }
 
-' +
-    'Tipo: ' + tipoTexto + '
-' +
-    'De: ' + nome + '
-' +
-    (typeof currentEstado !== 'undefined' && currentEstado ? 'Estado selecionado: ' + currentEstado + '
-' : '') +
-    '
---- Mensagem ---
-' + texto + '
-
-' +
-    '---
-Enviado via Mapa Interativo DPDF'
-  );
-
-  window.location.href = 'mailto:gustavo.souza@defensoria.df.gov.br?subject=' + assunto + '&body=' + corpo;
-
+  // Fallback mailto — usando <a> para evitar bug de abrir último arquivo
+  const assunto = encodeURIComponent('[MAPA DPDF] ' + tipoTexto + ' | ' + estadoStr);
+  const corpo = encodeURIComponent('Tipo: ' + tipoTexto + '\nDe: ' + nome + '\nEstado: ' + estadoStr + '\n\n--- Mensagem ---\n' + texto + '\n\n---\nEnviado via Mapa Interativo DPDF');
+  const link = document.createElement('a');
+  link.href = 'mailto:gustavofreitasds@gmail.com?subject=' + assunto + '&body=' + corpo;
+  link.style.display = 'none';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
   document.getElementById('sugestao-form-area').style.display = 'none';
-  document.getElementById('sugestao-success').style.display = 'block';
+  document.getElementById('sugestao-success').style.display   = 'block';
+}
+
+// ─── DÚVIDAS ───
+function abrirDuvidas() {
+  document.getElementById('duvidas-overlay').classList.add('open');
+}
+function fecharDuvidas() {
+  document.getElementById('duvidas-overlay').classList.remove('open');
+}
+function toggleDuvida(item) {
+  item.classList.toggle('open');
+}
+
+// ─── EXPORTAR JSON ───
+function exportarJSON() {
+  const dados = {
+    sucumbencia:     SUCUMBENCIA,
+    comarcas:        COMARCAS,
+    nomeacao_padrao: NOMEACAO_PADRAO,
+    nomeacao_custom: NOMEACAO_CUSTOM
+  };
+  const blob = new Blob([JSON.stringify(dados, null, 2)], {type: 'application/json'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url; a.download = 'data.json';
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  alert('✅ data.json exportado!\n\nAgora faça upload deste arquivo no GitHub (GustavoFreitas90/CONDEGE) para atualizar o site em todos os dispositivos.');
 }
 </script>
 
